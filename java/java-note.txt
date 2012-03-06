@@ -1,0 +1,12 @@
+Java反汇编工具，将.class转换为java源代码，失真很少
+失真的地方： 参数名称和对象变量名会改变，
+http://java.decompiler.free.fr/?q=jdgui
+而JAVA自带的工具javap，只能找出.class中的函数名及其用法，如：
+javap MapColorPoint.java
+public class MapColorPoint extends ColorPoint {
+  void setName(java.lang.String);
+  java.lang.String getName();
+  MapColorPoint(int, int, int, java.lang.String);
+  public java.lang.String toString();
+  public static void main(java.lang.String[]);
+}
