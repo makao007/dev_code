@@ -1,0 +1,88 @@
+<html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>practice jquery </title>
+    <script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"> </script>
+
+   <style>
+    ul {padding:0px; margin:0px;}
+    li {padding:0px;}
+    .b1 {border:1px solid #333;}
+    a.test {font-weight: bold;}
+   </style>
+</head>
+<body>
+  <h3 id="t1"> practice jquery </h3>
+  <a href="http://www.google.com" id="a2"> Google </a>
+  <a href="http://www.baidu.com"  id="a3" class="test"> Baidu </a>
+  <input type="text" id="i1" />
+  <li>
+  <ul> <li>li1</li><li>li2</li></ul>
+  </li>
+  <li>
+  <ul> <li>li3</li><li>li4</li></ul>
+  </li>
+
+
+  <form >
+    <input type="text" >
+    <input type="password" >
+    <textarea ></textarea>
+    <input type="submit" value="save">
+    <input type="button" value="save button">
+    <input type="reset">
+</body>
+
+<script>
+  var t = $("t1");
+  t.css ("color","red");
+  t.css ( {color: "red", "font-size": "14px" } );
+  t.addClass ("b1");
+  t.removeClass("b1");
+  t.text("hello world");
+  t.html("<h3>hello world</h3>");
+  
+
+  // $(document).ready (function () { console.log("page loaded"); })
+  
+  //执行一个匿名函数
+  (function(){ 
+     $("a").click (function (){
+          console.log(this.href);
+          console.log(this.text);
+          event.preventDefault(); 
+     });
+    
+     $("#t1").click(function () {
+          $(this).hide();
+      });
+
+   }) ();
+
+     (function () { 
+          var i1 = $("#i1");
+          console.log (i1.val());
+          i1.val("hello world");
+          i1.hasAttribute('name');
+          i1.attr ('name');
+          i1.hasClass("aaa");
+          i1.is(':visible');
+          i1.is(':hidden');
+          $('ul').find('li');
+          // i1.attr('disabled',true|false);
+          // $('#x').attr('checked', true|false);
+
+
+          $(document).find('#t1');
+          $(document).find('.test');
+      });
+</script>
+
+ $("#myselect option:selected").text();
+ <select id="myselect">
+   <option value="1">Mr</option>
+   <option value="2">Mrs</option>
+ </select>
+</html>
+
