@@ -1,0 +1,74 @@
+<html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>picture switch jquery </title>
+    <script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"> </script>
+
+   <style>
+    ul {padding:0px; margin:0px;}
+    li {padding:0px;}
+    
+    #cen {margin:0 auto; border:1px solid blue; width:510px; overflow:hidden; height:auto;}
+    #p1  {width:500px; height:500px; background:#eee; overflow:hidden;} 
+    img {height: 200px; width:200px; padding:0px; margin:0px; border:0px;}
+
+    #b1, #b2 {float:left; font-size:16px; margin:10px; display:block; background-color:#00ffff; padding:5px 20px; display:block; cursor:pointer;}
+
+   </style>
+</head>
+<body>
+  
+  <div id="cen">
+	  <div id="p1"></div>
+	  <div id="b1" onclick="a.show(-1);" >Left </div>
+	  <div id="b2" onclick="a.show(+1);" >Right</div>
+  </div>
+
+</body>
+
+
+<script type="text/javascript">
+    function article() {
+		var cur_index;
+		var txt_len  ;
+		var slide_time = 300;
+                var width ;
+		var div_id ;
+		this.init = function (articles,id ) {
+			   cur_index = 0;
+ 			   width = $('#'+id).width();
+			   txt_len  = articles.length-1;
+			   div_id = $("<div/>").css({'width':'100000px','height':'100%'});
+			   
+			   for (var i=0;i<=txt_len;i++) {
+				   $('<img/>').attr('src',articles[i]).css({'width': width+'px', 'height':'100%', 'float':'left'}).appendTo (div_id);
+			   }
+                           $('#'+id).append(div_id);
+	    };
+
+		this.show = function (otype) {
+			var direct = (otype > 0 ? '-' : '+') ;
+			if (cur_index <=0 && direct == '+' ||  cur_index>= txt_len && direct=='-') {
+				return ;
+			}
+			else {
+				cur_index += otype;
+				$(div_id).animate({'margin-left': direct + '=' + width + 'px'},slide_time);
+			}
+
+		};
+	}
+
+	$(document).ready(function () {
+		 a = new article();
+		 var data = ['http://static.appmocha.com/system/upload/cms/attachment/1135/034.jpg?1334474456','http://static.appmocha.com/system/upload/cms/attachment/1135/sp1.jpg?1334574066','http://t3.gstatic.com/images?q=tbn:ANd9GcSZ2plNQGiqkO40SyOYpCEQlx3dOesfNneF-1rgnFSXpdwxRHy0Mw','http://static.appmocha.com/system/upload/cms/attachment/1135/032.jpg?1334470619','http://static.appmocha.com/system/upload/cms/attachment/1135/035.jpg?1334470656'];
+		 a.init(data,"p1");
+                 
+                 
+	 });
+
+
+</script>
+</html>
+
