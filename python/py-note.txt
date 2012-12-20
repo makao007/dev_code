@@ -1,0 +1,2 @@
+>>> ' '.join(map(lambda x:x if len(x)<=3 else x[0]+x[1:-1][::-1]+x[-1],'Google is not Facebook , and it is not a apple'.split()))
+'Glgooe is not Foobecak , and it is not a alppe'
