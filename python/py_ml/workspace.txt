@@ -1,0 +1,13 @@
+
+target :  install scikit-learn  in win7  64x
+
+http://scikit-learn.org/dev/install.html
+
+1. install easy_install setup_tool 
+  download and run ez_setup.py    (http://pypi.python.org/pypi/setuptools#windows)
+  you will find the easy_install.exe in [python_path]/Scripts/ 
+2. install scikit-learn in easy_install
+  easy_install -U scikit-learn
+
+
+  
