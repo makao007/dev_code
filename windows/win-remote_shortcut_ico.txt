@@ -1,0 +1,16 @@
+Source: http://www.cnblogs.com/liuxw/archive/2011/11/29/2267645.html
+
+正确修改快捷方式箭头的方法：
+ 
+1.首先，要先制作或者找到一透明ico图标，保存到C:\Windows文件夹中，文件名为Empty.ico 。
+2.新建一文本文档，粘贴以下内容，另存为扩展名reg的注册表文件，双击导入，注销后重新登录即可(Vista同样适用）。此方法操作简单、见效快、无任何毒副作用、去掉后不反弹……
+--去掉箭头
+Windows Registry Editor Version 5.00 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons] 
+"29"="C:\\Windows\\Empty.ico,0"
+ 
+--恢复箭头
+Windows Registry Editor Version 5.00
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons]
+ 
+压缩包下载地址：http://cms.tianjimedia.com/uploadImages/2011/248/SHHAY31S4KRW.rar
