@@ -12,21 +12,43 @@ data=[['y','y','y','yes'],
       ['n','n','y','yes'],
       ['n','n','y','no']]
 
+data2=[['s','s','no','no'],
+       ['s','l','yes','yes'],
+       ['l','m','yes','yes'],
+       ['m','m','yes','yes'],
+       ['l','m','yes','yes'],
+       ['m','l','no','yes'],
+       ['m','s','no','no'],
+       ['l','m','no','yes'],
+       ['m','s','no','yes'],
+       ['s','s','yes','no']]
 
 # log (data) / log (2)
 def log2 (data):
     return math.log(data) / math.log(2)
 
+def not_zero (data):
+    min_data = 0.00000001
+    return data + min_data
 
 def cal_single_entrophy(labels, labels_size=-1):
     min_data = 0.0001
     if labels_size == -1:
-        print labels
         labels_size = sum(labels.values())
     if labels_size == 0:
         raise 'No data'
         return
-    result = - sum ( [((label+min_data)/labels_size * log2((label+min_data)/labels_size))  for label in labels.values()] )
+    result = - sum ( [((not_zero(label))/labels_size * log2((not_zero(label))/labels_size))  for label in labels.values()] )
+    return result
+
+def cal_feature_entrophy (features):
+    feature_sum = 0.0
+    for values in features.values():
+        feature_sum += sum(values.values())
+
+    result = 0.0
+    for values in features.values():
+        result += cal_single_entrophy (values) * sum(values.values()) / feature_sum
     return result
 
 def gen_labels (data):
@@ -44,7 +66,7 @@ def label_entrophy(data):
             labels[line[-1]] += 1
         else:
             labels[line[-1]] = 1
-    result = cal_single_enproy (labels, labels_size)
+    result = cal_single_entrophy (labels, labels_size)
     return result
 
 
@@ -66,10 +88,12 @@ def calGI (data):
                 features[line[index]] = tmp
             features[line[index]][cur_label] += 1
 
-        print features
-        attribute_entrophy.append (sum ([cal_single_entrophy(feature) for feature in features.values()]))
+        attribute_entrophy.append (cal_feature_entrophy (features))
     return attribute_entrophy
 
-#print calEnpro(data)
-print calGI (data)
+a=label_entrophy(data2)
+b=calGI (data2)
+print a
+for i in b:
+    print a-i
 
