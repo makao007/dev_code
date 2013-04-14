@@ -1,4 +1,5 @@
 import math
+import copy
 
 data=[['y','y','y','yes'],
       ['y','y','y','yes'],
@@ -70,13 +71,19 @@ def label_entrophy(data):
     return result
 
 
-def calGI (data):
+def find_max_info_gain(data,decision_tree):
+    if not data:
+        return decision_tree
+
     line_length = len(data[0])-1
     labels = gen_labels(data)
 
     attribute_entrophy = []
 
-    # compute every attribute 
+    max_gain = 0
+    max_gain_index = 0
+    max_attribute = {}
+
     for index in range(line_length):
         features = {}
 
@@ -88,13 +95,34 @@ def calGI (data):
                 features[line[index]] = tmp
             features[line[index]][cur_label] += 1
 
-        attribute_entrophy.append (cal_feature_entrophy (features))
-    return attribute_entrophy
+        max_gain_temp = cal_feature_entrophy(features)
+        if max_gain_temp > max_gain:
+            max_attribute = copy.copy(tmp)
+            max_gain = max_gain_temp
+
+    for key,value in max_attrubute:
+        desigion_tree[max_gain_index] = 
+    return (max_gain_index,max_attribute)
 
 
-a=label_entrophy(data2)
-b=calGI (data2)
-print a
-for i in b:
-    print a-i
+def gene_decision_tree (data):
+    decision_tree = {}
+    decision_tree = {7:{'yes':0.3, 'no':0.6,'nosure':0.1}}
 
+def retrieve_decision_tree (record, tree):
+    if not record:
+        raise "the test data can't be empty"
+
+    index = tree.keys()
+    while (index):
+        record[index] 
+
+
+dtree = gene_decision_tree (data2) 
+tdata = ['m','m','yes','yes']
+
+// return the label 
+print retrieve_decision_tree (tdata,dtree)
+
+    
+    
