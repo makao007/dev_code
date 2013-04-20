@@ -1,0 +1,37 @@
+﻿<!-- 聊天好友，群，最近联系，自己的信息等 -->
+<div id="chat_panel" class="panel">
+    <!-- 显示关闭的叉 -->
+    <div id="chat_panel_top" class="panel_title">
+        <div class="panel_close" onclick="hide_panel(this);"></div>
+    </div>
+    <!-- 个人信息 -->
+    <div id="chat_panel_head">
+        <div class="left"><img alt="头像" src="./images/head.jpg" ></div>
+        <div class="left">
+            <p>昵称</p>
+            <input type="text" name="signed" value="这是签名" onchange="update_signed(this.value);">
+        </div>
+    </div>    
+
+    <!-- 聊天导航 -->
+    <div id="chat_panel_nav">
+        <ul>
+            <li>好友聊天</li>
+            <li>聊组聊天</li>
+            <li class="last">最近联系</li>
+        </ul>
+    </div>
+
+    <!-- 全部好友信息 -->
+    <div id="chat_panel_body" style="padding:0px; margin:0px;">
+        <li >
+            <div class="left"><img src="./images/si.png" ></div>
+            <div class="left"><p class="p1">这是名称</p><p class="p2">这是个人签名</p></div>
+        </li>
+        <li>
+            <div class="left"><img src="./images/si.png" ></div>
+            <div class="left"><p class="p1">这是名称</p><p class="p2">这是个人签名</p></div>
+        </li>
+    </div>
+
+</div>   <!-- end chat_panel -->
