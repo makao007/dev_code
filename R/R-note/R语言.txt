@@ -1,0 +1,51 @@
+
+File->Change dir-> 改变工作目录
+保存工作空间,加载工作空间
+新建，打开，运行 R文件
+加载,保存历史命令
+
+------------
+help.start()
+help(solve)  函数solve的手册
+help(local)
+?solve
+?local
+help(":")   对于保留字
+example(solve)  函数solve的例子
+help.search('hello')  查找包括hello字符串的手册
+??helo 
+
+以"#"为单行注释
+source(filepath)  加载R文件
+sink(filepath)    将当前屏幕的输出定向到文件
+sink()   将输出切换到屏幕
+
+objects()   列出当前工作环境中所有的对象
+ls()
+rm(obj)   删除某对象obj
+rm(list=ls()); 删除所有对象
+
+---------------
+x <- c(1,2,3,4)
+assign ("x",c(1,2,3,4))
+c(1,2,3,4) -> x
+y <- c(x,0,x)
+
+x + 1
+x * 2
+x*2 + y - 1
+ 
++ - * /
+%/%  整数除法
+%%   求余数
+log  exp 
+sin cos tan 
+sqrt 
+min max
+sum prod mean length
+rev 倒序
+sort 排序
+order 返回使得从小到大的下标向量
+x[order(x)]   
+
+
