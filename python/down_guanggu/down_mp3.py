@@ -1,4 +1,5 @@
 #coding:utf-8
+#!/usr/bin/env python
 from down_files import *
 
 
@@ -16,7 +17,6 @@ detail_param = r'''<param name="URL" value=["']([^"']+)["']>'''
 for i,j in yueyu_story_keys:
     temp = find_match([i],single_param)
     for tem in temp:
-        print 'downloading ...',tem
         download_to_local (find_match([tem],detail_param),j)
     #download_to_local(find_match(find_match([i],single_param), detail_param), j)
 

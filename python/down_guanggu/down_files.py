@@ -1,4 +1,5 @@
 #coding:utf-8
+#!/usr/bin/env python
 
 import urllib
 import urlparse
@@ -39,34 +40,40 @@ def find_match(urls,param,with_title=False):
                 result.append (full_url)
     return result
 
+def show_log (msg,level):
+    if level == 1:
+        pass
+    elif level == 2:
+        pass
+    elif level == 3:
+        pass
+    else:
+        pass
+    print msg
 
-def download_to_local(urls,dirname='',exist_skip=True,succ_log='succ_download.log',fail_log='fail_download.log',download_log='download.log'):
+
+def download_to_local(urls,dirname='',exist_skip=True):
     if dirname == '':
         dirname = time.strftime("%Y-%m-%d__%H-%M-%S", time.localtime())
     if not os.path.isdir(dirname):
         os.mkdir(dirname)
 
-    succ_urls = []
-    fail_urls = []
-    down_urls = []
     for url in urls:
-        print 'downloading file %s' % url
         filename = urllib.unquote(os.path.split(urlparse.urlparse(url)[2])[1])
+        filename_path = os.path.join(dirname,filename)
         timestamp = time.strftime("%Y-%m-%d %H-%M-%S  ", time.localtime())
         try:
-            if os.path.isfile(filename) and exist_skip:
-                down_urls.append ("%s %10s %s" % (timestamp, 'exists', url)) 
+            if os.path.isfile(filename_path) and exist_skip:
+                msg = "%s %10s %s" % (timestamp, 'exists', url) 
+                show_log(msg,1)
             else:
-                urllib.urlretrieve(url,os.path.join(dirname,filename))
-                down_urls.append ("%s %10s %s" % (timestamp, 'download', url))
-                succ_urls.append (timestamp + url)
+                urllib.urlretrieve(url,filename_path)
+                msg = "%s %10s %s" % (timestamp, 'download', url)
+                show_log(msg,2)
         except:
             timestamp = time.strftime("%Y-%m-%d %H-%M-%S  ", time.localtime())
-            down_urls.append ("%s %10s %s" % (timestamp, 'fail', url)) 
-            fail_urls.append (timestamp + url)
-    write_url (succ_urls, succ_log)
-    write_url (fail_urls, fail_log)
-    write_url (down_urls, download_log)
+            msg = "%s %10s %s" % (timestamp, 'fail', url) 
+            show_log(msg,3)
 
 def make_url(template_url):
     num = re.findall(r'''\{\{(\d+)-(\d+)\}\}''',template_url)
