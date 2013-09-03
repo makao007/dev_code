@@ -1,4 +1,4 @@
-显示发行版本
+﻿显示发行版本
 cat /etc/issue
 
 cat /proc/version
@@ -6,5 +6,28 @@ cat /proc/version
 uname -a
 
 lsb_release -a
+
+sudo apt-get clean
+sudo apt-get upgrade
+sudo apt-get update
+sudo apt-get install git-core
+
+---------
+nohup command >/dev/null 2>/dev/null &
+nohup command &>/dev/null
+使用 jobs 查看任务。
+使用 fg %n　关闭
+------------
+ifconfig eth1 192.168.1.10 netmask 255.255.255.0
+ifconfig eth0 up
+ifconfig eth1 down
+ifconfig -a
+ifconfig eth0 hw ether xx:xx:xx:xx:xx:xx
+route add default gw 192.168.0.1
+
+----
+find /etc -name “*” | xargs grep “hello abcserver” > ./cqtest.txt
+
+
 
 
