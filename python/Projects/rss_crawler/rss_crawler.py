@@ -3,6 +3,7 @@
 import feedparser
 import sqlite3
 import hashlib
+from sys import argv
 
 def md5 (s):
     return hashlib.md5(str(s)).hexdigest() 
@@ -15,8 +16,8 @@ def rss_fetch (url):
 def rss_save (d, exists_article=[]):
     rss_articles = []
     for entry in d.entries:
-        guid_md5 = md5(entry.guid)
-        rss_article = [entry.title, entry.link, entry.description, entry.category, entry.published, entry.guid, guid_md5 ]
+        guid_md5 = md5(entry.get("guid"))
+        rss_article = [entry.get("title"), entry.get("link"), entry.get("description"), entry.get("category"), entry.get("published"), entry.get("guid"), guid_md5 ]
 
         if guid_md5 not in exists_article:
             rss_articles.append (rss_article)
@@ -49,18 +50,19 @@ def db_close():
     cursor.close()
     conn.close()
 
+def feed_urls(filename):
+    return file(filename).readlines()
 
-def start_craw_rss ():
-    urls = ['http://cn.reuters.feedsportal.com/chinaNews','http://cn.reuters.com/rssFeed/CNAnalysesNews/','http://cn.reuters.com/rssFeed/CNIntlBizNews/',\
-            'http://cn.reuters.com/rssFeed/CNTopGenNews/','http://cn.reuters.com/rssFeed/CNMgtNews/','http://cn.reuters.com/rssFeed/commoditiesNews/',\
-            'http://cn.reuters.com/rssFeed/cnBizNews/','http://cn.reuters.com/rssFeed/cnInvNews/','http://cn.reuters.com/rssFeed/companyNews/', \
-            'http://cn.reuters.com/rssFeed/cnMktNews/','http://cn.reuters.com/rssFeed/stocksNews/','http://cn.reuters.com/rssFeed/fundsNews/' , \
-            'http://cn.reuters.com/rssFeed/bondsNews/','http://cn.reuters.com/rssFeed/currenciesNews/','http://cn.reuters.com/rssFeed/industryNews/', \
-            'http://cn.reuters.com/rssFeed/macroeconomicsNews' ]
+def start_craw_rss (feed_filename):
     db_conn()
-    for url in urls:
+    for url in feed_urls(feed_filename):
         db_rss_save(rss_save(rss_fetch(url), db_rss_load_guid_md5()))
     db_close()
 
-start_craw_rss ()
+
+if __name__ == "__main__":
+    if len(argv)<2:
+        start_craw_rss ('feeds.txt')
+    else:
+        start_craw_rss (argv[1])
 
