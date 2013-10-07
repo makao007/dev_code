@@ -1,0 +1,10 @@
+http://news.ifeng.com/rss/index.xml
+http://news.ifeng.com/mil/rss/index.xml
+http://news.ifeng.com/history/rss/index.xml
+http://news.ifeng.com/rss/mainland.xml
+http://news.ifeng.com/rss/taiwan.xml
+http://news.ifeng.com/rss/world.xml
+http://news.ifeng.com/rss/society.xml
+http://news.ifeng.com/rss/photo.xml
+http://news.ifeng.com/opinion/rss/index.xml
+http://news.ifeng.com/sports/rss/index.xml
