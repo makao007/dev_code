@@ -1,0 +1,47 @@
+html,body {margin:0px; padding:0px;}
+body {background-color:#E5E5E5; font-size:14px;}
+
+ul,li {margin:0px; padding:0px}
+ul li,li,ul {list-style:none;}
+p.p1  {color:#888; margin:1px; padding:0px;}
+p.p2  {color:#222; margin:1px; padding:0px;}
+p.p3  {color:black; margin:1px; padding:0px;}
+
+.left  {float:left;}
+.right {float:right;}
+.panel {background-color:white; border:5px solid #EEAEEE; position: absolute; outline:1px solid #666;}
+.panel_title {background: #EEAEEE; height:auto; padding:2px; cursor:move;}
+.panel_text  {font-size:14px; color:black; float:left; font-weight:bold;}
+.panel_close {background-image: url('../images/close.gif'); background-position:-21px 0px; 
+    width:20px; height:20px; overflow:hidden; float:right; 
+    text-align:center; vertical-align:middle; margin-right:5px; cursor:pointer; }
+.panel_mmc {background-image: url('../images/mmc.jpg'); height:20px;float:right;width:94px;cursor:pointer;}
+.panel_mmc li {width:31px; float:left; height:20px;}
+
+input.button1, input.button2, input.button3 {background-color:#EEAEEE; border:#EE82EE; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; cursor: pointer;}
+input.button1 { padding:2px 10px; font-size:12px;color:#666;}
+input.button2 { padding:5px 20px; font-size:14px; }
+input.button3 { padding:3px 20px; font-size:12px;color:#222;}
+
+::-webkit-scrollbar-track-piece{
+    background-color:#fff;
+    -webkit-border-radius:0;
+}
+::-webkit-scrollbar{
+    width:15px;
+    height:8px;
+}
+::-webkit-scrollbar-thumb{
+    height:50px;
+    background-color:#999;
+    -webkit-border-radius:4px;
+    outline:2px solid #fff;
+    outline-offset:-2px;
+    border: 2px solid #fff;
+}
+::-webkit-scrollbar-thumb:hover{
+    height:50px;
+    background-color:#9f9f9f;
+    -webkit-border-radius:4px;
+}
+

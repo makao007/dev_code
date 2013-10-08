@@ -1,0 +1,23 @@
+/* 用户登录窗口 */
+#login_panel {width: 360px; height:170px; margin:0 auto; text-align:center; position:relative; margin-top:100px;} 
+#login_panel_top  {height:20px; clear:both;}
+#login_panel_body {clear:both; padding:10px 30px;} 
+
+#login_panel_body input {padding:3px 5px;}
+#login_panel_body input.botton1 {font-size:13px; margin:3px 10px;}
+#login_panel_body input.botton2 {font-size:14px; margin:5px 20px;}
+/* end 用户登录窗口 */
+
+/* 用户注册 */
+#register_panel {width:500px; height:350px; display:none; position:absolute;}
+#register_panel_top {height:20px;}
+#register_panel_body {clear:both; margin-top:5px;}
+#register_panel_body tr {clear:both; height:33px;}
+#register_panel_body tr td{width:200px; margin:0 auto; font-size:14px;}
+#register_panel_body tr td.tl{ text-align:right;}
+
+/* 忘记密码 */
+#find_password {width:400px; height:200px; background-color:white; display:none; position:absolute;}
+#find_password_top {height:20px;}
+#find_password_body {margin-top:20px;}
+
