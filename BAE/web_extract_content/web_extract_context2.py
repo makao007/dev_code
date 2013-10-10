@@ -6,7 +6,11 @@ import re
 from math import ceil
 
 def fetch (url):
-    return urllib.urlopen(url).read()
+    s = urllib.urlopen(url).read()
+    try:
+        return s.decode('gbk').encode('utf8')
+    except:
+        return s
 
 def remove_html_tag (content):
     r = re.compile(r'''<script.*?</script>''',re.I|re.M|re.S)
