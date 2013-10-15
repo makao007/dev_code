@@ -22,7 +22,7 @@ def show_url (urls):
     return urls
 
 def write_url (urls,filename='urls.txt'):
-    w = open(filename,'w')
+    w = open(filename,'w+')
     w.writelines('\n'.join(urls))
     w.close()
 
@@ -60,6 +60,7 @@ def download_to_local(urls,dirname='',exist_skip=True):
 
     for url in urls:
         filename = urllib.unquote(os.path.split(urlparse.urlparse(url)[2])[1])
+<<<<<<< HEAD:python/down_guanggu/down_files.py
         filename_path = os.path.join(dirname,filename)
         timestamp = time.strftime("%Y-%m-%d %H-%M-%S  ", time.localtime())
         try:
@@ -74,6 +75,25 @@ def download_to_local(urls,dirname='',exist_skip=True):
             timestamp = time.strftime("%Y-%m-%d %H-%M-%S  ", time.localtime())
             msg = "%s %10s %s" % (timestamp, 'fail', url) 
             show_log(msg,3)
+=======
+        dirname  = urllib.unquote(dirname)
+        filepath = os.path.join(dirname,filename)
+        timestamp = time.strftime("%Y-%m-%d %H-%M-%S  ", time.localtime())
+        try:
+            if os.path.isfile(filepath) and exist_skip:
+                down_urls.append ("%s %10s %s" % (timestamp, 'exists', url)) 
+            else:
+                urllib.urlretrieve(url,filepath)
+                down_urls.append ("%s %10s %s" % (timestamp, 'download', url))
+                succ_urls.append (timestamp + url)
+        except:
+            timestamp = time.strftime("%Y-%m-%d %H-%M-%S  ", time.localtime())
+            down_urls.append ("%s %10s %s" % (timestamp, 'fail', url)) 
+            fail_urls.append (timestamp + url)
+    write_url (succ_urls, os.path.join(dirname,succ_log))
+    write_url (fail_urls, os.path.join(dirname,fail_log))
+    write_url (down_urls, os.path.join(dirname,download_log))
+>>>>>>> 6f56ed1957ef3c2ab7501e0b8cc9a3b8c64af98c:python/Projects/file_crawler/script/down_files.py
 
 def make_url(template_url):
     num = re.findall(r'''\{\{(\d+)-(\d+)\}\}''',template_url)
@@ -85,22 +105,17 @@ def make_url(template_url):
     return result
 
 
+def start_download (urls,rules,tag, debug_mode=False):
+
+    if not rules:
+        print urls, rules
+        for url in urls:
+            if debug_mode:
+                show_url ([url])
+            download_to_local ([url],tag)
+    else:
+        for url in urls:
+            urlset = find_match ([url],rules[0])
+            start_download (urlset, rules[1:], tag)
 
 
-#------------------------------------
-#template_url = 'http://www.pingshu8.com/Musiclist/mmc_220_348_{{1-10}}.htm'
-#param1 = r'''<li class="a1">[^<]+<a href=["']([^"']+)' target='_blank'>[^>]+</a></li>'''
-#urls = ['http://www.pingshu8.com/Musiclist/mmc_220_348_1.htm']
-#show_url(make_url(template_url))
-#show_url(find_match(make_url(template_url),param1))
-#download_to_local(find_match(find_match(urls,param1),param2))
-#write_url(show_url(find_match(find_match(urls,param1), param2)))
-#download_to_local(['http://pl1.pingshu8.com:8000/ps/%D5%C5%D4%C3%BF%AC_%D0%A1%C0%EE%B7%C9%B5%B6%D4%C1%D3%EF/%D5%C5%D4%C3%BF%AC_%D0%A1%C0%EE%B7%C9%B5%B6%D4%C1%D3%EF_010.mp3?11302557604378x1367418367x11302563383120-a0dff5439f134ac374768c2912c3f19b'])
-
-'''
-http://www.pingshu8.com/play_67178.html
-http://www.pingshu8.com/MusicList/mmc_221_1082_1.Htm
-http://www.ysts8.com/play_1033_46_1_1.html
-http://www.ysts8.com/Yshtml/Ys1033.html
-'''
-#------------------------------------

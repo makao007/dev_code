@@ -1,0 +1,2 @@
+http://news.ifeng.com/rss/world.xml
+http://rss.sina.com.cn/news/society/law15.xml

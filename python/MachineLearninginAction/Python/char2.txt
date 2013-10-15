@@ -1,0 +1,7 @@
+python easy_install
+
+
+easy_install numpy
+easy_install matplotlib
+
+
