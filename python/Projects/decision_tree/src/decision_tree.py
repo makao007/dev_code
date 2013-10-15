@@ -107,7 +107,6 @@ def make_tree (dataset,feature_names,with_percentage=False):
         sub_tree[max_feature][value] = make_tree(tmp, feature_names,with_percentage)
     return sub_tree
 
-
 def d_tree (dataset, feature_names=[],with_percentage=False):
     if not dataset:
         raise Exception('the dataset is null')
@@ -144,7 +143,6 @@ def _test_entropy ():
     print_dict (d_tree (dataset1,feature_names,True))
     print '==========================='
     print_dict (d_tree (dataset2,[],True))
-
 
 _test_entropy()
 
