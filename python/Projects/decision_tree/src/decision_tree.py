@@ -91,7 +91,10 @@ def which_class (dataset,with_percentage=False):
 def make_tree (dataset,feature_names,with_percentage=False):
     labels =  [line[-1] for line in dataset] 
     if labels.count(labels[0]) == len (labels):
-        return labels[0],1.0
+        if with_percentage:
+            return labels[0],1.0
+        else:
+            return labels[0]
     if len (dataset[0]) == 1:
         return which_class (dataset,with_percentage)
 
@@ -116,6 +119,8 @@ def d_tree (dataset, feature_names=[],with_percentage=False):
 
     return make_tree(dataset,feature_names,with_percentage)
 
+
+
 def print_dict (d,n=0):
     for k,v in d.items():
         print '\t'*n,
@@ -136,15 +141,18 @@ def _test_entropy ():
     dataset1.append ([1,1,'yes'])
     dataset1.append ([1,1,'no'])
 
+    dataset1 = [[1, 1, 'yes'], [1, 1, 'yes'], [1, 0, 'no'], [0, 1, 'no'], [0, 1, 'no'], [1, 1, 'yes'], [1, 1, 'yes'], [1, 1, 'no']]
+
     dataset2 = load_dataset()
     #print dataset_entropy (dataset1)
     #print dataset_entropy (dataset2)
 
-    print_dict (d_tree (dataset1,feature_names,True))
+    print_dict (d_tree (dataset1))
     print '==========================='
     print_dict (d_tree (dataset2,[],True))
 
-_test_entropy()
+if __name__ == "__main__":
+    _test_entropy()
 
 
 
