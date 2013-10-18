@@ -4,10 +4,16 @@ import urllib
 import urlparse
 import re
 from math import ceil
-import os
 
 def fetch (url):
-    return urllib.urlopen(url).read()
+    try:
+        s = urllib.urlopen(url).read()
+    except:
+        return ''
+    try:
+        return s.decode('gbk').encode('utf8')
+    except:
+        return s
 
 def remove_html_tag (content):
     r = re.compile(r'''<script.*?</script>''',re.I|re.M|re.S)
@@ -21,7 +27,7 @@ def remove_html_tag (content):
 
     r = re.compile(r'''^\n+''',re.S|re.M)
     s = r.sub('\n', s)
-    return s.replace('&gt;','>').replace('&lt;','<').replace('\r','').replace('&nbsp;',' ')
+    return s.replace('\r','').replace('&nbsp;',' ')
 
 
 def compute_line_length (content):
@@ -78,25 +84,20 @@ def find_context_pos (line_text_length):
     else:
         return [position[distance_index][0], position[distance_index][1]+1]
 
-    
-def write_file (s,filename):
-    if not filename:
-        import time 
-        filename = time.strftime("%Y-%m-%d_%H-%M-%S", time.localtime())
-    default_dir = 'context'
-    if not os.path.isdir (default_dir):
-        os.mkdir(default_dir)
-    filename = 'context' + os.path.sep + filename + '.txt'
-    w = open(filename,'w')
-    w.write(s)
-    w.close()
+def tag_article (s):
+    if "<article" in s.lower():
+        content = re.findall(r'''<article.*?</article>''',s,re.I|re.M|re.S)
+        if content:
+            return content[0]
+    return ''
 
 def extract_context (url):
-    s = remove_html_tag(fetch(url))
+    web_page = fetch(url)
+    article = tag_article (web_page)
+    if article :     # if <article> in the page , then return the article directly
+        return article
+
+    s = remove_html_tag(web_page)
     [l,r] = find_context_pos(compute_line_length (s))
-    print l,r
-    write_file ('\n'.join(s.split('\n')[l:r]), os.path.split(urlparse.urlparse(url)[2])[1])
+    return '\n'.join(s.split('\n')[l:r])
 
-
-for url in file('urls.txt'):
-    extract_context(url.strip())
