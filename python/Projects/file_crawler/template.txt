@@ -1,0 +1,22 @@
+#coding=utf-8
+#r1 = r'''<a href='([^']+)' target='_blank'>'''
+#r2 = r'''<embed src="([^"]+)"'''
+#keys=[['http://www.pingshu8.com/MusicList/mmc_219_341_{{1-12}}.htm','xinyou',[r1,r2]]]
+
+
+#--------
+#r1=r'''<a href=['"]([^']+)['"] .*?>'''
+#r2=r'''<embed src="([^"]+)" .*?>'''
+#keys=[['http://www.ysts8.com/Yshtml/Ys4477.html','hanwudadi',[r1,r2]]]
+#--------
+
+r0=r'''<a href=(\/[^>]+)>'''
+r1=[r'''\d+\.<a href=['"]([^']+)['"] [^>]{1,1000}>''',r'''<a href=(/Musiclist/[^>]+)>下一页'''.decode('utf8').encode('gbk')]
+r2=r'''var urlpath = encodeURI\("([^"]+)"\);'''
+
+keys=[
+
+    ['http://www.pingshu8.com/special/msp_221.htm','LiangJinHui',[r0,r1,r2]],       
+
+]
+

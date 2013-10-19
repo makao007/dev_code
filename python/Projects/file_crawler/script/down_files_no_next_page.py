@@ -33,35 +33,22 @@ def show_url (urls):
     return urls
 
 def write_url (urls,filename='urls.txt'):
-    w = open(filename,'wa+')
-    w.write('\n'.join(urls))
+    w = open(filename,'w+')
+    w.writelines('\n'.join(urls))
     w.close()
 
-def find_match(urls,param):
+def find_match(urls,param,with_title=False):
     result = []
     for url in urls:
         content = fetch(url)
-        param2 = ''
-        if type(param)==type(''): 
-            param1 = param
-        elif type(param) == type([]):
-            param1 = param[0]
-            param2 = param[1]
-
-        #find the regular match url
-        temp = re.findall(param1,content,re.S|re.M|re.I)
+        temp = re.findall(param,content,re.S|re.M|re.I)
         for i in temp:
-            result.append( urllib.unquote(urlparse.urljoin(url,i)) )
-
-        #find the "brother" match url
-        if param2:
-            temp = re.findall(param2, content,re.S|re.M|re.I)
-            print 'find param2',param2
-            print temp
-            for i in temp:
-                next_url = urllib.unquote(urlparse.urljoin(url,i))
-                result.extend(find_match ([next_url],param))
-
+            if with_title:
+                full_url = urllib.unquote(urlparse.urljoin(url,i[0]))
+                result.append ([full_url,i[1]])
+            else:
+                full_url = urllib.unquote(urlparse.urljoin(url,i))
+                result.append (full_url)
     return result
 
 
@@ -84,7 +71,7 @@ def download_to_local(urls,dirname='',exist_skip=True,succ_log='succ_download.lo
             if os.path.isfile(filepath) and exist_skip:
                 down_urls.append ("%s %10s %s" % (timestamp, 'exists', url)) 
             else:
-                urllib.urlretrieve(url,filepath)          #download the file to local PC
+                urllib.urlretrieve(url,filepath)
                 down_urls.append ("%s %10s %s" % (timestamp, 'download', url))
                 succ_urls.append (timestamp + url)
         except IOError:

@@ -1,0 +1,12 @@
+#coding=utf-8
+
+r0=r'''<a href=(\/[^>]+)>'''
+r1=[r'''\d+\.<a href=['"]([^']+)['"] [^>]{1,1000}>''',r'''<a href=(/Musiclist/[^>]+)>下一页'''.decode('utf8').encode('gbk')]
+r2=r'''var urlpath = encodeURI\("([^"]+)"\);'''
+
+keys=[
+
+    ['http://www.pingshu8.com/Special/Msp_220.Htm','ZhangYueJie',[r0,r1,r2]],
+    ['http://www.pingshu8.com/Special/Msp_219.Htm','LingZhaoMing',[r0,r1,r2]],
+]
+
