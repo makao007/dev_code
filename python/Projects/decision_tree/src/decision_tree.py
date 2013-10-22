@@ -32,7 +32,7 @@ def entropy (labels,length):
 def dataset_entropy (dataset, value=None, column=None):
     if not dataset:
         return 
-    dataset_length = len (dataset)
+    dataset_length = 0
 
     labels = {}
     for line in dataset:
@@ -43,6 +43,8 @@ def dataset_entropy (dataset, value=None, column=None):
         if not labels.has_key(key):
             labels[key] = 0
         labels[key] += 1
+
+        dataset_length += 1
     return entropy (labels, dataset_length)
 
 def max_info_gain (dataset):
@@ -99,17 +101,15 @@ def make_tree (dataset,feature_names,with_percentage=False):
         return which_class (dataset,with_percentage)
 
     max_index = max_info_gain (dataset)
-    
-    print max_index
-    print feature_names
-    max_feature = feature_names.pop(max_index)
+    new_feature_names = feature_names[::]
+    max_feature = new_feature_names.pop(max_index)
 
     sub_tree = {max_feature:{}}
 
     values = set([line[max_index] for line in dataset])
     for value in values:
         tmp = split_dataset(dataset,value,max_index)
-        sub_tree[max_feature][value] = make_tree(tmp, feature_names,with_percentage)
+        sub_tree[max_feature][value] = make_tree(tmp, new_feature_names,with_percentage)
     return sub_tree
 
 def d_tree (dataset, feature_names=[],with_percentage=False):

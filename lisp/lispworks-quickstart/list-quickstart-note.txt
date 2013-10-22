@@ -1,9 +1,0 @@
-(defstruct animal species name weight)
-(make-animal :species "Hippp" :name "Hilda" :weight 42)
-
-
-
-lispworks : 
-
-:redo   // the previous input
-:his     // the input history
