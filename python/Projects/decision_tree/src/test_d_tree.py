@@ -20,8 +20,8 @@ def test_1 ():
 
 def test_2 ():
     d = D_tree()
-    #d.make_tree('../german_credit_data/german-numeric.txt')
-    d.make_tree('a.txt')
+    d.make_tree('../german_credit_data/german-numeric.txt')
+    #d.make_tree('a.txt')
     d.show_dict (d.fill_tree(d.tree))
     d.save_tree ('a.dat')
 
@@ -32,6 +32,9 @@ def test_3 ():
     d.show_dict(d.fill_tree(d.tree))
 
     
-test_1()
+#test_1()
+print '--------------------------------'
 test_2()
+print '--------------------------------'
 test_3()
+print '--------------------------------'

@@ -99,7 +99,9 @@ def make_tree (dataset,feature_names,with_percentage=False):
         return which_class (dataset,with_percentage)
 
     max_index = max_info_gain (dataset)
-
+    
+    print max_index
+    print feature_names
     max_feature = feature_names.pop(max_index)
 
     sub_tree = {max_feature:{}}
