@@ -153,6 +153,29 @@ def d_tree (dataset, feature_names=[],with_percentage=False):
 
     return make_tree(dataset,feature_names,with_percentage)
 
+def dict_to_html (d,n=0,feature_key={},last_key=''):
+    s = ''
+    for k,v in d.items():
+        s += '\t'*n + ' '
+        text = k
+        if n%2==1:
+            tmp = feature_key.get(int(last_key))
+            if tmp:
+                text = "v : %.2f < %.2f" % (tmp.get('min') + tmp.get('step') * k, tmp.get('min') + tmp.get('step')* (k+1))
+        if type(v)==type({}):
+            if n==0:
+                s+="<ul class='show' >Index %s : {\n" % k
+            elif n%2==0:
+                s+="<li><span onclick=toggle(this) >Index %s : { </span><ul class='show' >\n" % k
+            else:
+                s+="<li><span onclick=toggle(this) >+%s : { </span><ul class='hidden' >\n" % text
+            s+=dict_to_html(v,n+1,feature_key,k)
+        else:
+            s+=("<li>%s : %s</li>\n" % (text,v))
+    if n!=0:
+        s += '\t'*(n-1)+ ' }</ul></li>\n'
+    return s
+
 def dict_to_string (d,n=0,feature_key={},last_key=''):
     s = ''
     for k,v in d.items():

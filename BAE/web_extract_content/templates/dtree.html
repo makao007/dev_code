@@ -1,0 +1,64 @@
+$def with (tree,result)
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Online Decistion Tree</title>
+    <style >
+        body {font:16px/1.5 Tahoma,'Microsoft Yahei','Simsun'; line-height: 24px; letter-spacing: 1px; width:960px; margin:auto; margin-top:20px}
+        ul,li,p,pre {text-align:left; }
+
+        ul {padding:0px;}
+        li {list-style-position: inside; margin-left:30px;}
+
+        .hidden {display:none;}
+        .show {display:block;}
+        
+        .bgYellow{background-color:#ff3}
+        .bgWhite {background-color:white;}
+
+        li span {cursor:pointer;}
+
+    </style>
+    <script>
+        function toggle (x) {
+            var y = x.parentNode.getElementsByTagName('ul')[0];
+            if (y.className=='show'){
+                y.className='hidden';
+                x.className='bgWhite';
+            }
+            else {
+                y.className='show';
+                x.className='bgYellow';
+            }
+        }
+    </script>
+
+</head>
+<body style="text-align:center;"> 
+    <h3> On line Decistion Tree (one label)</h3>
+    <p><a href="/">Home</a></p>
+
+    $if tree:
+        $if result:
+            <p>Result:</p>
+            <ul>
+                $for i in result: 
+                    <li>$i[0] : $i[1] : $i[2] </li>
+            </ul>
+            <hr/>
+
+        <div>$:tree</div>
+    $else:
+        $if result:
+            <p><b>Error</b> $result</p>
+
+        <form action="" method="post" accept-charset="utf-8">
+        <p>input dataset format:  feature1,feature2,...featureN,label<input type="submit" value="Show Result" style="text-align:right; float:right;"></p>
+            <p>Train dataset</p>
+            <textarea name="data_train" rows="20" cols="120"></textarea>
+            <hr/>
+            <p>Test dataset</p>
+            <textarea name="data_test" rows="10" cols="120"></textarea>
+        </form>
+</body>
+</html>

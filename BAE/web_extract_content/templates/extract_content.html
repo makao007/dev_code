@@ -1,14 +1,15 @@
 $def with (context)
 <html>
 <head>
-  	<style >
-      body {font:16px/1.5 Tahoma,'Microsoft Yahei','Simsun'; line-height: 24px; letter-spacing: 1px;}
-  </style>
+    <style >
+        body {font:16px/1.5 Tahoma,'Microsoft Yahei','Simsun'; line-height: 24px; letter-spacing: 1px;}
+    </style>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>Extract Content</title>
-  <body style="width:800px; margin:0 auto; margin-top:30px; ">
+    <!-- the fetch content split by HTML tag "<a>"  -->
+  <body style="width:800px; margin:0 auto; margin-top:30px; word-break:break-all; word-wrap:break-word; ">
         <form action="" method="get" accept-charset="utf-8">
-          <p><a href="/extract_context" >Home</a>  &nbsp;&nbsp; URL <input type="text" name="url" size=80 >
+            <p><a href='/'>Home</a>&nbsp;&nbsp;<a href="/extract_context" >Extract</a>  &nbsp;&nbsp; URL <input type="text" name="url" size=75 >
             <input type="submit" value="Extract Content"></p>
         </form>
 
