@@ -4,6 +4,7 @@ from decision_tree import *
 
 import pickle
 import os
+import re
 
 class D_tree :
     def __init__ (self, tree_filename=None):
@@ -12,6 +13,8 @@ class D_tree :
         self.tree_key = 'tree'
         self.feature_key = 'feature'
         self.with_percentage = True
+        self.feature_map = {}
+        
         if tree_filename is not None:
             self.load_tree (tree_filename)
 
@@ -32,9 +35,16 @@ class D_tree :
             dataset = data
         else:
             raise Exception('dataset type not reconigze')
-
+        self.feature_map = pre_process_feature (dataset)
         self.tree = d_tree (dataset,[],self.with_percentage)
 
+    def string_to_dataset (self, s):
+        dataset = []
+        sep = ',' if ',' in s else '\s+'
+        for i in s.split('\n'):
+            if i.strip():
+                dataset.append (re.split(sep,i.strip()))
+        return dataset
 
     def _load_tree (self, tree_filename):
         if os.path.isfile (tree_filename):
@@ -70,6 +80,9 @@ class D_tree :
     def clear_tree (self):
         self.tree = {}
 
+    def string_dict (self,data):
+        return dict_to_string (data,0,self.feature_map)
+
     def show_dict (self,data):
         print_dict (data)
 
@@ -96,8 +109,10 @@ class D_tree :
                 if features[key] == k:
                     return self._classify (features, v)
             
-            print 'no found'
-            return None
+            if self.with_percentage:
+                return (None,'Unknown')
+            else:
+                return None
 
 
     def classify (self, features):
@@ -106,7 +121,3 @@ class D_tree :
             return None
         
         return self._classify(features,self.tree)
-            
-
-
-

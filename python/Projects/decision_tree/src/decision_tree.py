@@ -18,6 +18,38 @@ def split_dataset(dataset, value,column):
     return sub_dataset
 
 
+def pre_process_feature (dataset,feature_length={}, with_label = True):
+    if not dataset or type(dataset)!=type([]):
+        return dataset
+
+    feature_key = {}
+    if with_label :
+        line_length = len(dataset[0]) - 1
+    else:
+        line_length = len(dataset[0])
+    for i in range(line_length):
+        values = set([line[i] for line in dataset])
+        if feature_length.get(i):
+            length = feature_length[i]
+        else:
+            length = 20
+        if len(values) > length:
+            values = list(values)
+            if str(values[0]).isdigit():
+                values = map(float,values)
+                min_feature = min(values)
+                max_feature = max(values)
+                mean = (max_feature - min_feature) / length
+                feature_key[i] = {'step':mean, 'length':length,'min':min_feature,'max':max_feature}
+            
+    for i in range(line_length):
+        if feature_key.get(i):
+            for line in dataset :
+                line[i] = int(round( (float(line[i]) - feature_key.get(i).get('min') )/ feature_key.get(i).get('step') ))
+    
+    return feature_key
+
+
 def entropy (labels,length):
     if length == 0:
         raise ValueError('the length of dataset could not be empty')
@@ -43,7 +75,6 @@ def dataset_entropy (dataset, value=None, column=None):
         if not labels.has_key(key):
             labels[key] = 0
         labels[key] += 1
-
         dataset_length += 1
     return entropy (labels, dataset_length)
 
@@ -85,7 +116,7 @@ def which_class (dataset,with_percentage=False):
 
     labels_sorted = sorted (labels.iteritems(), key=operator.itemgetter(1), reverse=True)    
     if with_percentage:
-        return labels_sorted[0][0], float(labels_sorted[0][1])/len(dataset)
+        return labels_sorted[0][0], float(labels_sorted[0][1])/len(dataset),'%d/%d' % (labels_sorted[0][1], len(dataset))
     else:
         return labels_sorted[0][0]
 
@@ -94,13 +125,14 @@ def make_tree (dataset,feature_names,with_percentage=False):
     labels =  [line[-1] for line in dataset] 
     if labels.count(labels[0]) == len (labels):
         if with_percentage:
-            return labels[0],1.0
+            return labels[0],1.0,'%d/%d' % (len(labels),len(labels))
         else:
             return labels[0]
     if len (dataset[0]) == 1:
         return which_class (dataset,with_percentage)
 
     max_index = max_info_gain (dataset)
+
     new_feature_names = feature_names[::]
     max_feature = new_feature_names.pop(max_index)
 
@@ -121,17 +153,38 @@ def d_tree (dataset, feature_names=[],with_percentage=False):
 
     return make_tree(dataset,feature_names,with_percentage)
 
-
+def dict_to_string (d,n=0,feature_key={},last_key=''):
+    s = ''
+    for k,v in d.items():
+        s += '\t'*n + ' '
+        text = k
+        if n%2==1:
+                tmp = feature_key.get(int(last_key))
+                if tmp:
+                    text = "v : %.2f < %.2f" % (tmp.get('min') + tmp.get('step') * k, tmp.get('min') + tmp.get('step')* (k+1))
+        if type(v)==type({}):
+            if n%2==0:
+                s+="Index %s : {\n" % k
+            else:
+                s+="%s : {\n" % k
+            s+=dict_to_string(v,n+1,feature_key,k)
+        else:
+            s+=("%s : %s\n" % (text,v))
+    if n!=0:
+        s += '\t'*(n-1)+ ' }\n'
+    return s
 
 def print_dict (d,n=0):
     for k,v in d.items():
         print '\t'*n,
         if type(v)==type({}):
-            print "%s : {" % k
+            if n%2==0 :
+                print "Index: %s : {" % k
+            else:
+                print "%s : {" % k
             print_dict(v,n+1)
         else:
             print("%s : %s" % (k,v))
-
     if n!=0:
         print '\t'*(n-1)+ '}'
 
@@ -155,6 +208,3 @@ def _test_entropy ():
 
 if __name__ == "__main__":
     _test_entropy()
-
-
-
