@@ -1,0 +1,18 @@
+http://reader.youdao.com/view.do?_=1382592920469&method=viewChannel&param=4134975263908880489&pageIndex=247&first=0&viewnew=0&viewtitle=1&shot=-1
+
+
+direct: 
+http://account.youdao.com/login?back_url=http%3A%2F%2Freader.youdao.com%2Fview.do%3Fmethod%3DviewChannel%26pageIndex%3D249%26param%3D4134975263908880489%26first%3D0%26viewtitle%3D1%26shot%3D-1%26viewnew%3D0%26_%3D1382592916423&service=reader
+
+https://reg.163.com/logins.jsp
+    input_url="http://account.youdao.com/login?service=reader&amp;back_url=http%3A%2F%2Freader.youdao.com%2Fview.do%3Fmethod%3DviewChannel%26pageIndex%3D249%26param%3D4134975263908880489%26first%3D0%26viewtitle%3D1%26shot%3D-1%26viewnew%3D0%26_%3D1382592916423&amp;success=1"
+    username = ""
+    password = ""
+    data = {"url":input_url, "product":"search", "type":"1", "username":username,"password":password}
+
+subscribe
+http://reader.youdao.com/subscribe.do?_=1382603826369&method=addChannel&addChannel=http%3A%2F%2Frss.sina.com.cn%2Fbjhouse%2Fscan%2Fhuodong.xml&page=1
+http://reader.youdao.com/subscribe.do   post
+	method:bookChannelByIdOrUrl
+	id:5911132460954853360
+	folder:
