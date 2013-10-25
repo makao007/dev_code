@@ -2,10 +2,12 @@
 
 import operator
 import sys
+import os
 
 def top_k_words (s,n):
-    sign = '、 。 ， ： “ ” ？ 》 《 ！ , " ! . '.decode('utf8').split(' ')
-    sign.extend ([u' ',u'\n',u'\r','\t'])
+    sign = '、 。 ， ： “ ” ？ 》 《 ！ , " ! . （ ） ( ) & # ￥ $'.decode('utf8').split(' ')
+    sign.extend ([u' ',u'\n',u'\r',u'\t',u'\\'])
+    sign.extend (map(str,range(10)))
 
     words = {}
     length = 0
@@ -20,14 +22,22 @@ def top_k_words (s,n):
         length += 1
     words_sorted = sorted (words.iteritems(), key=operator.itemgetter(1), reverse=True)   
    
-    i = 0
-    result = []
-    for k,v in words_sorted:
-        if i>n :
-            break
-        i += 1
-        result.append ((k,v))
-    return result
+    return words_sorted[:n],length
+
+
+def read_file_from_json (dir_name):
+    if not os.path.isdir(dir_name):
+        print 'the folder not exists', dir_name
+        return 
+    files = os.listdir(dir_name)
+    content = ''
+    for filename in files:
+        info = eval (file(os.path.join(dir_name,filename)).read())
+        for article in info.get('articles'):
+            content += article.get('title') + '\n' + article.get('desc') + '\n'
+
+    content = content.decode('utf8')
+    return content
 
 def test_top_k_works():
 
@@ -42,7 +52,10 @@ l  需要是通过词汇，即具有普适性，比如像“贝克汉姆带儿�
 
 l  尽可能多的找，然后整理。比如“小小罗”和”C罗”是同一个人，但是笔者将其作为两个关键词。'''
     s = s.decode('utf8')
-    for i in top_k_words(s,10):
+
+    dir_name = 'E:/Data/youdao_rss/4134975263908880489'
+    s = read_file_from_json(dir_name)
+    for i in top_k_words(s,100)[0]:
         print i[0],i[1],len(i[0])
 
 test_top_k_works()

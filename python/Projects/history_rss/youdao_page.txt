@@ -11,8 +11,16 @@ https://reg.163.com/logins.jsp
     data = {"url":input_url, "product":"search", "type":"1", "username":username,"password":password}
 
 subscribe
+http://reader.youdao.com/subscribe.do?_=1382698837171&method=addChannel&addChannel=http%3A%2F%2Frss.sina.com.cn%2Ffashion%2Fall%2Fnews.xml&page=1
 http://reader.youdao.com/subscribe.do?_=1382603826369&method=addChannel&addChannel=http%3A%2F%2Frss.sina.com.cn%2Fbjhouse%2Fscan%2Fhuodong.xml&page=1
 http://reader.youdao.com/subscribe.do   post
 	method:bookChannelByIdOrUrl
 	id:5911132460954853360
 	folder:
+
+user list:
+http://reader.youdao.com/user.do?_=1382695131242&method=refreshChannelList
+
+
+7481005239057819193
+http://reader.youdao.com/view.do?_=1382592920469&method=viewChannel&param=7481005239057819193&pageIndex=247&first=0&viewnew=0&viewtitle=1&shot=-1

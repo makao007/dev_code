@@ -1,0 +1,205 @@
+新闻中心
+新闻要闻 http://rss.sina.com.cn/news/marquee/ddt.xml
+国内要闻 http://rss.sina.com.cn/news/china/focus15.xml
+国际要闻 http://rss.sina.com.cn/news/world/focus15.xml
+社会新闻 http://rss.sina.com.cn/news/society/focus15.xml
+港澳台新闻 http://rss.sina.com.cn/news/china/hktaiwan15.xml
+社会与法 http://rss.sina.com.cn/news/society/law15.xml
+社会万象 http://rss.sina.com.cn/news/society/misc15.xml
+真情时刻 http://rss.sina.com.cn/news/society/feeling15.xml
+奇闻轶事 http://rss.sina.com.cn/news/society/wonder15.xml
+------------------
+体育新闻
+体育要闻汇总 http://rss.sina.com.cn/roll/sports/hot_roll.xml
+焦点新闻 http://rss.sina.com.cn/news/allnews/sports.xml
+国际足坛 http://rss.sina.com.cn/sports/global/focus.xml
+意甲 http://rss.sina.com.cn/sports/global/italy.xml
+英超 http://rss.sina.com.cn/sports/global/england.xml
+西甲 http://rss.sina.com.cn/sports/global/spain.xml
+德甲、法甲 http://rss.sina.com.cn/sports/global/germanyfrance.xml
+五洲热报 http://rss.sina.com.cn/sports/global/others.xml
+精彩图片 http://rss.sina.com.cn/sports/global/photo.xml
+国内足坛 http://rss.sina.com.cn/sports/china/focus.xml
+中国之队 http://rss.sina.com.cn/sports/china/team.xml
+篮球新闻 http://rss.sina.com.cn/sports/basketball/focus.xml
+NBA新闻 http://rss.sina.com.cn/sports/basketball/nba.xml
+CBA新闻 http://rss.sina.com.cn/sports/basketball/cba.xml
+综合体育 http://rss.sina.com.cn/sports/others/focus.xml
+彩票新闻 http://rss.sina.com.cn/sports/global/lottery.xml
+高尔夫新闻 http://rss.sina.com.cn/sports/global/golf.xml
+F1赛车新闻 http://rss.sina.com.cn/sports/global/f1.xml
+棋牌新闻 http://rss.sina.com.cn/sports/global/chess.xml
+------------------
+博客频道
+文化 http://rss.sina.com.cn/blog/index/cul.xml
+独家 http://rss.sina.com.cn/blog/index/exc.xml
+情感 http://rss.sina.com.cn/blog/index/feel.xml
+八卦 http://rss.sina.com.cn/blog/index/ent.xml
+生活纪录 http://rss.sina.com.cn/blog/index/enjoy.xml
+观点 http://rss.sina.com.cn/blog/index/other.xml
+股票 http://rss.sina.com.cn/blog/index/stocks.xml
+娱乐 http://rss.sina.com.cn/blog/ent/yl.xml
+女性 http://rss.sina.com.cn/blog/eladies/nx.xml
+IT http://rss.sina.com.cn/blog/tech/kj.xml
+房产 http://rss.sina.com.cn/blog/house/fc.xml
+教育 http://rss.sina.com.cn/blog/edu/jy.xml
+星座 http://rss.sina.com.cn/blog/astro/xz.xml
+汽车 http://rss.sina.com.cn/blog/auto/qc.xml
+游戏 http://rss.sina.com.cn/blog/games/yx.xml
+体育 http://rss.sina.com.cn/blog/sports/ty.xml
+美食 http://rss.sina.com.cn/blog/food/ms.xml
+家居 http://rss.sina.com.cn/blog/decor/jiaju.xml
+育儿 http://rss.sina.com.cn/blog/baby/ye.xml
+健康 http://rss.sina.com.cn/blog/news/jk.xml
+军事 http://rss.sina.com.cn/blog/mini/js.xml
+------------------
+科技新闻
+科技要闻汇总 http://rss.sina.com.cn/tech/rollnews.xml
+焦点新闻 http://rss.sina.com.cn/news/allnews/tech.xml
+互联网新闻 http://rss.sina.com.cn/tech/internet/home28.xml
+手机资讯 http://rss.sina.com.cn/tech/mobile/mobile_6.xml
+3G新闻 http://rss.sina.com.cn/tech/3G/guonei.xml
+笔记本新闻 http://rss.sina.com.cn/tech/notebook/193_1.xml
+电信新闻 http://rss.sina.com.cn/tech/tele/gn37.xml
+业界新闻 http://rss.sina.com.cn/tech/it/gn37.xml
+科技下载 http://rss.sina.com.cn/tech/down/down20.xml
+科普要闻 http://rss.sina.com.cn/tech/discovery/discovery.xml
+数码资讯 http://rss.sina.com.cn/tech/number/new_camera.xml
+家电资讯 http://rss.sina.com.cn/tech/elec/buy_elec.xml
+------------------
+财经新闻
+财经要闻汇总 http://rss.sina.com.cn/roll/finance/hot_roll.xml
+焦点新闻 http://rss.sina.com.cn/news/allnews/finance.xml
+股市及时雨 http://rss.sina.com.cn/finance/jsy.xml
+股票要闻汇总 http://rss.sina.com.cn/roll/stock/hot_roll.xml
+基金要闻 http://rss.sina.com.cn/finance/fund.xml
+理财要闻 http://rss.sina.com.cn/finance/financial.xml
+美股快报 http://rss.sina.com.cn/finance/usstock.xml
+港股快讯 http://rss.sina.com.cn/finance/hkstock.xml
+期货要闻 http://rss.sina.com.cn/finance/future.xml
+------------------
+军事新闻
+军事要闻汇总 http://rss.sina.com.cn/roll/mil/hot_roll.xml
+焦点新闻 http://rss.sina.com.cn/jczs/focus.xml
+国际军情 http://rss.sina.com.cn/jczs/taiwan20.xml
+中国军情 http://rss.sina.com.cn/jczs/china15.xml
+------------------
+女性新闻
+女性要闻汇总 http://rss.sina.com.cn/news/allnews/eladies.xml
+情感婚姻 http://rss.sina.com.cn/eladies/marry.xml
+八卦 http://rss.sina.com.cn/eladies/gossip.xml
+亲子 http://rss.sina.com.cn/eladies/son.xml
+------------------
+时尚新闻
+时装 http://rss.sina.com.cn/fashion/style/news.xml
+美容 http://rss.sina.com.cn/fashion/beauty/news.xml
+美体 http://rss.sina.com.cn/fashion/body/news.xml
+尚品 http://rss.sina.com.cn/fashion/luxury/news.xml
+婚嫁 http://rss.sina.com.cn/fashion/wedding/news.xml
+------------------
+汽车新闻
+焦点新闻 http://rss.sina.com.cn/news/allnews/auto.xml
+行业动态 http://rss.sina.com.cn/auto/news/t/index.xml
+购车指导 http://rss.sina.com.cn/auto/guide/index.xml
+新车上市 http://rss.sina.com.cn/auto/newcar/index.xml
+车市·降价 http://rss.sina.com.cn/auto/sales/index.xml
+企业新闻 http://rss.sina.com.cn/auto/news/e/index.xml
+汽车养护 http://rss.sina.com.cn/auto/servicing/index.xml
+汽车召回 http://rss.sina.com.cn/auto/recalls/index.xml
+汽车保险 http://rss.sina.com.cn/auto/insurance/index.xml
+汽车配件 http://rss.sina.com.cn/auto/parts/news/index.xml
+汽车用品 http://rss.sina.com.cn/auto/automotive/index.xml
+改装 http://rss.sina.com.cn/auto/ultratune/index.xml
+汽车轮胎 http://rss.sina.com.cn/auto/tire/index.xml
+交通 http://rss.sina.com.cn/auto/traffic/index.xml
+车致 http://rss.sina.com.cn/auto/um/index.xml
+------------------
+娱乐新闻
+娱乐要闻汇总 http://rss.sina.com.cn/ent/hot_roll.xml
+焦点新闻 http://rss.sina.com.cn/news/allnews/ent.xml
+音乐 http://rss.sina.com.cn/ent/music/focus12.xml
+电视前沿 http://rss.sina.com.cn/ent/tv/focus7.xml
+电影宝库 http://rss.sina.com.cn/ent/film/focus7.xml
+明星全接触 http://rss.sina.com.cn/ent/star/focus7.xml
+内地明星 http://rss.sina.com.cn/ent/inner.xml
+港台明星 http://rss.sina.com.cn/ent/hongkong.xml
+日韩明星 http://rss.sina.com.cn/ent/star/japan.xml
+欧美明星 http://rss.sina.com.cn/ent/star/outer.xml
+------------------
+读书新闻
+读书要闻汇总 http://rss.sina.com.cn/book/info.xml
+最新连载 http://rss.sina.com.cn/book/new_book.xml
+图书总排行 http://rss.sina.com.cn/book/total_rank.xml
+小说排行榜 http://rss.sina.com.cn/book/story_rank.xml
+人文历史排行榜 http://rss.sina.com.cn/book/history_rank.xml
+青春校园排行榜 http://rss.sina.com.cn/book/school_rank.xml
+生活娱乐排行榜 http://rss.sina.com.cn/book/life_rank.xml
+读书财经排行榜 http://rss.sina.com.cn/book/finance_rank.xml
+读书军事排行榜 http://rss.sina.com.cn/book/military_rank.xml
+------------------
+文化教育
+教育要闻汇总 http://rss.sina.com.cn/roll/edu/hot_roll.xml
+焦点新闻 http://rss.sina.com.cn/edu/focus19.xml
+考试频道 http://rss.sina.com.cn/edu/exam.xml
+高考 http://rss.sina.com.cn/edu/gaokao.xml
+外语频道 http://rss.sina.com.cn/edu/en.xml
+考研 http://rss.sina.com.cn/edu/kaoyan.xml
+中考 http://rss.sina.com.cn/edu/zhongkao.xml
+公务员 http://rss.sina.com.cn/edu/gwy.xml
+英语考试 http://rss.sina.com.cn/edu/yyks.xml
+司法考试 http://rss.sina.com.cn/edu/sifa.xml
+会计考试 http://rss.sina.com.cn/edu/cpa.xml
+出国 http://rss.sina.com.cn/edu/abroad5.xml
+中小学教育 http://rss.sina.com.cn/edu/zxx.xml
+商学院 http://rss.sina.com.cn/edu/bschool.xml
+------------------
+房产新闻
+北京房产－楼市活动 http://rss.sina.com.cn/bjhouse/scan/huodong.xml
+北京房产－新盘汇总 http://rss.sina.com.cn/bjhouse/scan/xinpan.xml
+北京房产－开盘信息 http://rss.sina.com.cn/bjhouse/scan/kaipan.xml
+北京房产－打折优惠 http://rss.sina.com.cn/bjhouse/scan/dazhe.xml
+北京房产－购房指导 http://rss.sina.com.cn/bjhouse/scan/daogou.xml
+北京房产－地产人物 http://rss.sina.com.cn/bjhouse/dcrw.xml
+北京房产－房产企业 http://rss.sina.com.cn/bjhouse/fcqy.xml
+北京房产－地产评论 http://rss.sina.com.cn/bjhouse/dcpl.xml
+北京房产－地产访谈 http://rss.sina.com.cn/bjhouse/dcft.xml
+北京房产－地产新闻 http://rss.sina.com.cn/bjhouse/dcnews.xml
+家居－家居新闻 http://rss.sina.com.cn/jiaju/news.xml
+家居－家饰生活 http://rss.sina.com.cn/jiaju/ornament.xml
+家居－设计风尚 http://rss.sina.com.cn/jiaju/design.xml
+------------------
+游戏新闻
+焦点新闻 http://rss.sina.com.cn/news/allnews/games.xml
+电子竞技 http://rss.sina.com.cn/games/dzjj.xml
+网络游戏新闻 http://rss.sina.com.cn/games/wlyx.xml
+单机游戏新闻 http://rss.sina.com.cn/games/djyx.xml
+游戏产业新闻 http://rss.sina.com.cn/games/cyxw.xml
+电视游戏新闻 http://rss.sina.com.cn/games/dsyx.xml
+手机游戏新闻 http://rss.sina.com.cn/games/sjyx.xml
+迷你游戏 http://rss.sina.com.cn/games/littlegame.xml
+玩家资讯新闻 http://rss.sina.com.cn/games/wjzx.xml
+------------------
+星座新闻
+焦点新闻 http://rss.sina.com.cn/news/allnews/astro.xml
+星座时尚热点 http://rss.sina.com.cn/astro/fashion.xml
+星座热文总排行 http://rss.sina.com.cn/astro/hot.xml
+------------------
+视频新闻
+新闻视频排行 http://rss.sina.com.cn/bn/hot_bn.xml
+新闻 http://rss.sina.com.cn/bn/news.xml
+科技 http://rss.sina.com.cn/bn/tech.xml
+财经 http://rss.sina.com.cn/bn/finance.xml
+体育 http://rss.sina.com.cn/bn/sports.xml
+娱乐 http://rss.sina.com.cn/bn/ent.xml
+时尚 http://rss.sina.com.cn/bn/fashion.xml
+------------------
+育儿指导
+育儿知识 http://rss.sina.com.cn/baby/news/guide.xml
+育儿新闻 http://rss.sina.com.cn/baby/news/news.xml
+准备怀孕 http://rss.sina.com.cn/baby/news/zhunbei.xml
+怀孕期 http://rss.sina.com.cn/baby/news/huaiyun.xml
+分娩期 http://rss.sina.com.cn/baby/news/fenmian.xml
+新生儿 http://rss.sina.com.cn/baby/news/xinsheng.xml
+婴儿期 http://rss.sina.com.cn/baby/news/yinger.xml
+幼儿期 http://rss.sina.com.cn/baby/news/youer.xml
+学龄前 http://rss.sina.com.cn/baby/news/xueqian.xml

@@ -1,0 +1,189 @@
+------------------
+时尚新闻
+时装 http://rss.sina.com.cn/fashion/style/news.xml None
+美容 http://rss.sina.com.cn/fashion/beauty/news.xml None
+美体 http://rss.sina.com.cn/fashion/body/news.xml None
+尚品 http://rss.sina.com.cn/fashion/luxury/news.xml None
+------------------
+育儿指导
+育儿知识 http://rss.sina.com.cn/baby/news/guide.xml -1049174837888639978
+育儿新闻 http://rss.sina.com.cn/baby/news/news.xml 5726817459075044351
+准备怀孕 http://rss.sina.com.cn/baby/news/zhunbei.xml None
+怀孕期 http://rss.sina.com.cn/baby/news/huaiyun.xml None
+分娩期 http://rss.sina.com.cn/baby/news/fenmian.xml None
+新生儿 http://rss.sina.com.cn/baby/news/xinsheng.xml None
+婴儿期 http://rss.sina.com.cn/baby/news/yinger.xml -1345882197566046935
+幼儿期 http://rss.sina.com.cn/baby/news/youer.xml -3972117162942813549
+------------------
+读书新闻
+读书要闻汇总 http://rss.sina.com.cn/book/info.xml 631487833073860808
+最新连载 http://rss.sina.com.cn/book/new_book.xml -2948827425367615777
+图书总排行 http://rss.sina.com.cn/book/total_rank.xml 6595358247649711959
+小说排行榜 http://rss.sina.com.cn/book/story_rank.xml 1228067551493561959
+人文历史排行榜 http://rss.sina.com.cn/book/history_rank.xml 4813808927905745642
+青春校园排行榜 http://rss.sina.com.cn/book/school_rank.xml -7775321384893005703
+生活娱乐排行榜 http://rss.sina.com.cn/book/life_rank.xml -1163700457284398214
+读书财经排行榜 http://rss.sina.com.cn/book/finance_rank.xml 3261268275236621767
+------------------
+汽车新闻
+焦点新闻 http://rss.sina.com.cn/news/allnews/auto.xml None
+行业动态 http://rss.sina.com.cn/auto/news/t/index.xml -4453967312484368010
+购车指导 http://rss.sina.com.cn/auto/guide/index.xml 6946326418527977722
+新车上市 http://rss.sina.com.cn/auto/newcar/index.xml 156269739505722682
+车市·降价 http://rss.sina.com.cn/auto/sales/index.xml 7793128217951905408
+企业新闻 http://rss.sina.com.cn/auto/news/e/index.xml None
+汽车养护 http://rss.sina.com.cn/auto/servicing/index.xml None
+汽车召回 http://rss.sina.com.cn/auto/recalls/index.xml -3596153908840251782
+汽车保险 http://rss.sina.com.cn/auto/insurance/index.xml 7333304547492221588
+汽车配件 http://rss.sina.com.cn/auto/parts/news/index.xml 1665699257200846488
+汽车用品 http://rss.sina.com.cn/auto/automotive/index.xml 7255642855892914742
+改装 http://rss.sina.com.cn/auto/ultratune/index.xml None
+汽车轮胎 http://rss.sina.com.cn/auto/tire/index.xml 7228777820705965081
+交通 http://rss.sina.com.cn/auto/traffic/index.xml 1724867433002084685
+------------------
+新闻中心
+新闻要闻 http://rss.sina.com.cn/news/marquee/ddt.xml 3400579628982409496
+国内要闻 http://rss.sina.com.cn/news/china/focus15.xml -6751394960970850153
+国际要闻 http://rss.sina.com.cn/news/world/focus15.xml None
+社会新闻 http://rss.sina.com.cn/news/society/focus15.xml 3592205035866342693
+港澳台新闻 http://rss.sina.com.cn/news/china/hktaiwan15.xml 3201254140354233683
+社会与法 http://rss.sina.com.cn/news/society/law15.xml -3439969759515352617
+社会万象 http://rss.sina.com.cn/news/society/misc15.xml -3977413138435736249
+真情时刻 http://rss.sina.com.cn/news/society/feeling15.xml -1717896015791601216
+------------------
+女性新闻
+女性要闻汇总 http://rss.sina.com.cn/news/allnews/eladies.xml -4097969305018802441
+情感婚姻 http://rss.sina.com.cn/eladies/marry.xml 1139110432970308134
+八卦 http://rss.sina.com.cn/eladies/gossip.xml None
+------------------
+科技新闻
+科技要闻汇总 http://rss.sina.com.cn/tech/rollnews.xml 7925691158886209856
+焦点新闻 http://rss.sina.com.cn/news/allnews/tech.xml None
+互联网新闻 http://rss.sina.com.cn/tech/internet/home28.xml -4689072495156889774
+手机资讯 http://rss.sina.com.cn/tech/mobile/mobile_6.xml 4732226402129990437
+3G新闻 http://rss.sina.com.cn/tech/3G/guonei.xml -3737486723158162806
+笔记本新闻 http://rss.sina.com.cn/tech/notebook/193_1.xml 545305302836504684
+电信新闻 http://rss.sina.com.cn/tech/tele/gn37.xml -7530802552058786047
+业界新闻 http://rss.sina.com.cn/tech/it/gn37.xml -3761066304732494735
+科技下载 http://rss.sina.com.cn/tech/down/down20.xml 5815080256259386671
+科普要闻 http://rss.sina.com.cn/tech/discovery/discovery.xml -469237259900734335
+数码资讯 http://rss.sina.com.cn/tech/number/new_camera.xml 8167329438807543979
+------------------
+娱乐新闻
+娱乐要闻汇总 http://rss.sina.com.cn/ent/hot_roll.xml -3255423793322553992
+焦点新闻 http://rss.sina.com.cn/news/allnews/ent.xml -2180326876029927220
+音乐 http://rss.sina.com.cn/ent/music/focus12.xml -5800791796534076546
+电视前沿 http://rss.sina.com.cn/ent/tv/focus7.xml -8941090282289717584
+电影宝库 http://rss.sina.com.cn/ent/film/focus7.xml 2894378604168576095
+明星全接触 http://rss.sina.com.cn/ent/star/focus7.xml 6501738331065329671
+内地明星 http://rss.sina.com.cn/ent/inner.xml 3444374662253951299
+港台明星 http://rss.sina.com.cn/ent/hongkong.xml -235887732494439722
+日韩明星 http://rss.sina.com.cn/ent/star/japan.xml 7008403870370705303
+------------------
+军事新闻
+军事要闻汇总 http://rss.sina.com.cn/roll/mil/hot_roll.xml -7481005239057819193
+焦点新闻 http://rss.sina.com.cn/jczs/focus.xml 4162878786041438345
+国际军情 http://rss.sina.com.cn/jczs/taiwan20.xml 1791310802077125490
+------------------
+房产新闻
+北京房产－楼市活动 http://rss.sina.com.cn/bjhouse/scan/huodong.xml 5911132460954853360
+北京房产－新盘汇总 http://rss.sina.com.cn/bjhouse/scan/xinpan.xml 4994896241386965782
+北京房产－开盘信息 http://rss.sina.com.cn/bjhouse/scan/kaipan.xml 6889492520232296188
+北京房产－打折优惠 http://rss.sina.com.cn/bjhouse/scan/dazhe.xml 1461423726394598175
+北京房产－购房指导 http://rss.sina.com.cn/bjhouse/scan/daogou.xml 6093935285404243006
+北京房产－地产人物 http://rss.sina.com.cn/bjhouse/dcrw.xml -6170129143688040987
+北京房产－房产企业 http://rss.sina.com.cn/bjhouse/fcqy.xml 1362678720032962036
+北京房产－地产评论 http://rss.sina.com.cn/bjhouse/dcpl.xml -8568143508593059916
+北京房产－地产访谈 http://rss.sina.com.cn/bjhouse/dcft.xml 2423854045442644160
+北京房产－地产新闻 http://rss.sina.com.cn/bjhouse/dcnews.xml 3923000373629945052
+家居－家居新闻 http://rss.sina.com.cn/jiaju/news.xml -2934044229904768927
+家居－家饰生活 http://rss.sina.com.cn/jiaju/ornament.xml 8069669954054165567
+------------------
+财经新闻
+财经要闻汇总 http://rss.sina.com.cn/roll/finance/hot_roll.xml 4134975263908880489
+焦点新闻 http://rss.sina.com.cn/news/allnews/finance.xml 6694851995229732782
+股市及时雨 http://rss.sina.com.cn/finance/jsy.xml 1528724016866326005
+股票要闻汇总 http://rss.sina.com.cn/roll/stock/hot_roll.xml -1590361397877572806
+基金要闻 http://rss.sina.com.cn/finance/fund.xml -5037815234532154355
+理财要闻 http://rss.sina.com.cn/finance/financial.xml 80030570565215661
+美股快报 http://rss.sina.com.cn/finance/usstock.xml -2595574239822278602
+港股快讯 http://rss.sina.com.cn/finance/hkstock.xml -6176622579006702439
+------------------
+博客频道
+文化 http://rss.sina.com.cn/blog/index/cul.xml 6583243195228426426
+独家 http://rss.sina.com.cn/blog/index/exc.xml 5346628395947776664
+情感 http://rss.sina.com.cn/blog/index/feel.xml -5160346006276610225
+八卦 http://rss.sina.com.cn/blog/index/ent.xml 1411316403337667041
+生活纪录 http://rss.sina.com.cn/blog/index/enjoy.xml -3947544421833476797
+观点 http://rss.sina.com.cn/blog/index/other.xml -2490967848816653835
+股票 http://rss.sina.com.cn/blog/index/stocks.xml 6806493520829634501
+娱乐 http://rss.sina.com.cn/blog/ent/yl.xml -9010553425750345964
+女性 http://rss.sina.com.cn/blog/eladies/nx.xml -3451966196746390396
+IT http://rss.sina.com.cn/blog/tech/kj.xml -1432526169963652377
+房产 http://rss.sina.com.cn/blog/house/fc.xml -4731591433204727374
+教育 http://rss.sina.com.cn/blog/edu/jy.xml 4677784747566116584
+星座 http://rss.sina.com.cn/blog/astro/xz.xml 609562181473346797
+汽车 http://rss.sina.com.cn/blog/auto/qc.xml -6555115003500200419
+游戏 http://rss.sina.com.cn/blog/games/yx.xml 1424338626741568361
+体育 http://rss.sina.com.cn/blog/sports/ty.xml -7731564487447072868
+美食 http://rss.sina.com.cn/blog/food/ms.xml 7726442344711109319
+家居 http://rss.sina.com.cn/blog/decor/jiaju.xml 8456365531877240559
+育儿 http://rss.sina.com.cn/blog/baby/ye.xml -8389204056491424107
+健康 http://rss.sina.com.cn/blog/news/jk.xml -9095469164668045358
+------------------
+游戏新闻
+焦点新闻 http://rss.sina.com.cn/news/allnews/games.xml -1581926368795018571
+电子竞技 http://rss.sina.com.cn/games/dzjj.xml -2228969383350841313
+网络游戏新闻 http://rss.sina.com.cn/games/wlyx.xml -3924839554755310452
+单机游戏新闻 http://rss.sina.com.cn/games/djyx.xml -4772006655299409341
+游戏产业新闻 http://rss.sina.com.cn/games/cyxw.xml -1283040664413788516
+电视游戏新闻 http://rss.sina.com.cn/games/dsyx.xml -499086918459853613
+手机游戏新闻 http://rss.sina.com.cn/games/sjyx.xml 8576299908815096720
+迷你游戏 http://rss.sina.com.cn/games/littlegame.xml 7570295280175727598
+------------------
+视频新闻
+新闻视频排行 http://rss.sina.com.cn/bn/hot_bn.xml -3535611914797369707
+新闻 http://rss.sina.com.cn/bn/news.xml -7125455889050626397
+科技 http://rss.sina.com.cn/bn/tech.xml 6740593436063638246
+财经 http://rss.sina.com.cn/bn/finance.xml 2209272243748226972
+体育 http://rss.sina.com.cn/bn/sports.xml 8152462473981206831
+娱乐 http://rss.sina.com.cn/bn/ent.xml -7868849735894533172
+------------------
+体育新闻
+体育要闻汇总 http://rss.sina.com.cn/roll/sports/hot_roll.xml 673187875072618404
+焦点新闻 http://rss.sina.com.cn/news/allnews/sports.xml 3854395524223685988
+国际足坛 http://rss.sina.com.cn/sports/global/focus.xml 6215948913176052442
+意甲 http://rss.sina.com.cn/sports/global/italy.xml 5145540878677721832
+英超 http://rss.sina.com.cn/sports/global/england.xml -5457491384498115580
+西甲 http://rss.sina.com.cn/sports/global/spain.xml 3661343942741271900
+德甲、法甲 http://rss.sina.com.cn/sports/global/germanyfrance.xml -8280861860782346083
+五洲热报 http://rss.sina.com.cn/sports/global/others.xml -4566444368717834423
+精彩图片 http://rss.sina.com.cn/sports/global/photo.xml -5085690922994945571
+国内足坛 http://rss.sina.com.cn/sports/china/focus.xml 7965061239442922157
+中国之队 http://rss.sina.com.cn/sports/china/team.xml 3069113315128241565
+篮球新闻 http://rss.sina.com.cn/sports/basketball/focus.xml -411210011645084630
+NBA新闻 http://rss.sina.com.cn/sports/basketball/nba.xml -3630544144873542209
+CBA新闻 http://rss.sina.com.cn/sports/basketball/cba.xml 1535960103577258473
+综合体育 http://rss.sina.com.cn/sports/others/focus.xml 2509861480227877380
+彩票新闻 http://rss.sina.com.cn/sports/global/lottery.xml -7282922922540877878
+高尔夫新闻 http://rss.sina.com.cn/sports/global/golf.xml 757052239087398837
+F1赛车新闻 http://rss.sina.com.cn/sports/global/f1.xml -6567783451557978118
+------------------
+文化教育
+教育要闻汇总 http://rss.sina.com.cn/roll/edu/hot_roll.xml -8036465548618984449
+焦点新闻 http://rss.sina.com.cn/edu/focus19.xml 1951069878543014279
+考试频道 http://rss.sina.com.cn/edu/exam.xml -391414959827299045
+高考 http://rss.sina.com.cn/edu/gaokao.xml -1229935446764640466
+外语频道 http://rss.sina.com.cn/edu/en.xml 5059791727525423367
+考研 http://rss.sina.com.cn/edu/kaoyan.xml 2827980091218209168
+中考 http://rss.sina.com.cn/edu/zhongkao.xml 1565245976301920518
+公务员 http://rss.sina.com.cn/edu/gwy.xml 8232096713584728058
+英语考试 http://rss.sina.com.cn/edu/yyks.xml -4087173652696362417
+司法考试 http://rss.sina.com.cn/edu/sifa.xml -1942644364349904951
+会计考试 http://rss.sina.com.cn/edu/cpa.xml -4196504422746458002
+出国 http://rss.sina.com.cn/edu/abroad5.xml 8091491159968174490
+中小学教育 http://rss.sina.com.cn/edu/zxx.xml None
+------------------
+星座新闻
+焦点新闻 http://rss.sina.com.cn/news/allnews/astro.xml 4792831438736729305
+星座时尚热点 http://rss.sina.com.cn/astro/fashion.xml 6630177298219580818
