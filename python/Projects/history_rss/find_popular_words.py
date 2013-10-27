@@ -13,14 +13,14 @@ def merge_dict (d1,d2):
         else:
             d1[k] = d2[k]
 
-def top_k_words (s,n=100):
-    sign = '、 。 ， ： “ ” ？ 》 《 ！ , " ! . （ ） ( ) & # ￥ $ ; / [ ] ? - _ * :'.decode('utf8').split(' ')
+def top_k_words (s):
+    sign = '、 。 ， ： “ ” ？ 》 《 ！ , " ! . 【 】 （ ） ～ ( ) & # ￥ $ ; / [ ] ? - _ * :'.decode('utf8').split(' ')
     sign.extend ([u' ',u'\n',u'\r',u'\t',u'\\',u'的'])
     sign.extend (map(str,range(10)))
     sign.extend (list(string.ascii_letters))
 
     words = {}
-    length = 0
+    length = 0.0
     
     for i in range(len(s)-1):
         if s[i] in sign or s[i+1] in sign:
@@ -29,7 +29,7 @@ def top_k_words (s,n=100):
         if not words.has_key (word):
             words[word] = 0
         words[word] += 1
-        length += 1
+        length += 1.0
    
     return words,length
 
