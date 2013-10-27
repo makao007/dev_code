@@ -14,8 +14,8 @@ def merge_dict (d1,d2):
             d1[k] = d2[k]
 
 def top_k_words (s,n=100):
-    sign = '、 。 ， ： “ ” ？ 》 《 ！ , " ! . （ ） ( ) & # ￥ $ ; / [ ]'.decode('utf8').split(' ')
-    sign.extend ([u' ',u'\n',u'\r',u'\t',u'\\'])
+    sign = '、 。 ， ： “ ” ？ 》 《 ！ , " ! . （ ） ( ) & # ￥ $ ; / [ ] ? - _ * :'.decode('utf8').split(' ')
+    sign.extend ([u' ',u'\n',u'\r',u'\t',u'\\',u'的'])
     sign.extend (map(str,range(10)))
     sign.extend (list(string.ascii_letters))
 
@@ -38,7 +38,11 @@ def read_json (filename):
     if not os.path.isfile (filename):
         print 'file not exists', filename
         return 
-    info = eval (file(filename).read())
+    try:
+        info = eval (file(filename).read())
+    except:
+        print 'Error parse file', filename
+        return ''
     content = ''
     for article in info.get('articles'):
         content += article.get('title') + '\n' + article.get('desc') + '\n'
@@ -61,7 +65,7 @@ def group_key_word (dir_name, n=20):
 
     words_sorted = sorted (key_words.iteritems(), key=operator.itemgetter(1), reverse=True)   
    
-    static_filename = dir_name.replace('/','_').replace('\\','_') + '_' + str(n)+ '_statics.txt'
+    static_filename = dir_name.split('\\')[-1].replace('/','_').replace('\\','_') + '_' + str(n)+ '_statics.txt'
     w = codecs.open(static_filename, "w", "utf-8")
     for k,v in words_sorted[:n]:
         w.write ('%s %d\n' % (k,v))
@@ -70,4 +74,24 @@ def group_key_word (dir_name, n=20):
 
 
 if __name__ == "__main__":
-    group_key_word ('data/房产新闻'.decode('utf8'),500)
+    dir_names = r"""
+    E:\Data\rss\data\博客频道
+    E:\Data\rss\data\财经新闻
+    E:\Data\rss\data\读书新闻
+    E:\Data\rss\data\房产新闻
+    E:\Data\rss\data\军事新闻
+    E:\Data\rss\data\科技新闻
+    E:\Data\rss\data\女性新闻
+    E:\Data\rss\data\汽车新闻
+    E:\Data\rss\data\视频新闻
+    E:\Data\rss\data\体育新闻
+    E:\Data\rss\data\文化教育
+    E:\Data\rss\data\新闻中心
+    E:\Data\rss\data\星座新闻
+    E:\Data\rss\data\游戏新闻
+    E:\Data\rss\data\娱乐新闻
+    E:\Data\rss\data\育儿指导
+    """
+    for i in dir_names.split('\n'):
+        if i.strip():
+            group_key_word (i.strip().decode('utf8'),2000)
