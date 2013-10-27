@@ -47,19 +47,27 @@ def youdao_login_get_cookie ():
     s,c = fetch(url, data,None, True)  
     return c
 
-def youdao_get_rss_records(xml_id,cookie, start_page=1, end_page=251, parent_dir='./'):
-    url = 'http://reader.youdao.com/view.do?_=%s&method=viewChannel&param=%s&pageIndex=%d&first=0&viewnew=0&viewtitle=1&shot=-1'
-    for i in range(start_page, end_page):
-        try:
-            url = url % (timestamp(), xml_id, i)
-        except:
-            print xml_id,i
+def youdao_get_rss_records(xml_id,cookie, parent_dir='./'):
+    url_base = 'http://reader.youdao.com/view.do?_=%s&method=viewChannel&param=%s&pageIndex=%d&first=0&viewnew=0&viewtitle=1&shot=-1'
+
+    start_page = 1
+    end_page = 251
+
+    url = url_base % (timestamp(), xml_id, 1)
+    s = fetch (url,None, cookie)
+    s = s.replace('true','True').replace('false','False')
+    info = eval (s)          # convert the string to dict
+    end_page = int(info.get('page').get('lastPage')) + 1           #get how many pages
+
+    for i in xrange(start_page, end_page):
+        print 'download page',i
+        url = url_base % (timestamp(), xml_id, i)
         s = fetch (url,None, cookie)
         s = s.replace('true','True').replace('false','False')
 
         filename = os.path.join(parent_dir,str(i)+'.json')
         write_file (filename,s)
-        print 'page %d ' % i
+
 
 
 def load_rss_source (local_filename=''):
@@ -111,7 +119,6 @@ def main ():
                 os.mkdir (sub_dir_name)
 
             youdao_get_rss_records(i[2],cookie, parent_dir=sub_dir_name)
-
 
 
 if __name__ == '__main__':  

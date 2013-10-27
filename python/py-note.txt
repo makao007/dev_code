@@ -6,5 +6,14 @@ Eclipse PyDev ÖĞÎÄÂÒÂë
 
 »»ĞĞ
 os.linesep
+os.sep
 
+--
+import codecs
+file = codecs.open("lol", "w", "utf-8")
+file.write(u'\ufeff')
+file.close()
 
+--
+>>> import string
+>>> string.ascii_letters
