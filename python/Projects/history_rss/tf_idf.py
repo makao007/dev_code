@@ -71,8 +71,7 @@ def show_top_k_words (info,k=100):
 def category (info,content):
     article_info,length = find_popular_words.top_k_words(content)
     max_value = 0
-    out_match = 0
-
+    out_match = 1.0
     category_text = ''
 
     for key,value in info.iteritems():
@@ -89,14 +88,6 @@ def category (info,content):
             out_match = tmp2
 
     return category_text,max_value,out_match
-
-def test_category (dir_name,info):
-    files = os.listdir(dir_name)
-    for filename in files:
-        full_filename = os.path.join(dir_name, filename)
-        content = read(full_filename)
-        result = category (info, content)
-        print result[0], result[1], result[2], content[:30].replace('\n', ' ').replace('\r','')
 
 
 def save_info (info,filename):

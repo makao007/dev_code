@@ -58,6 +58,7 @@ def youdao_get_rss_records(xml_id,cookie, parent_dir='./'):
     s = s.replace('true','True').replace('false','False')
     info = eval (s)          # convert the string to dict
     end_page = int(info.get('page').get('lastPage')) + 1           #get how many pages
+    end_page = 3
 
     for i in xrange(start_page, end_page):
         print 'download page',i

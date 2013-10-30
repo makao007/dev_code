@@ -7,6 +7,7 @@ import codecs
 import string
 import operator
 
+import read_write_file
 import split_article_into_words
 
 def merge_dict (d1,d2):
@@ -32,13 +33,25 @@ def read_json (filename):
     content = content.decode('utf8')
     return content
 
+def make_info_statics_file (info,dir_name):
+    for group_name,group_words in info:
+        content = []
+        words_sorted = sorted (group_words.iteritems(), key=operator.itemgetter(1), reverse=True)   
+        i=0
+        for k,v in words_sorted:
+            content.append ('%s %d' % (k,v))
+            i += 1
+        filename = group_name + '_' + str(i)+ '_statics.txt'
+        filename = os.path.join (dir_name, filename)
+        read_write_file.write (filename, '\n'.join(content))
+
 
 def group_key_word (info_filename, n=20):
     """ the parameter n mean how many top n words should be save """
 
     group_dir = {}
     for line in file (info_filename):
-        line = line.strip()
+        line = line.strip().decode('utf8')
         if not line:
             continue
 
@@ -64,20 +77,19 @@ def group_key_word (info_filename, n=20):
                     tmp = split_article_into_words.split_text(read_json(os.path.join (root, filename)))
                     merge_dict (same_group_key_words, tmp[0])
                     same_group_words_length += tmp[1]
+        
+        if n==-1:
+            group_dir[group_name] = same_group_key_words
+        else:
+            words_sorted = sorted (same_group_key_words.iteritems(), key=operator.itemgetter(1), reverse=True)   
+            group_dir[group_name] = dict (words_sorted[:n])
 
-        words_sorted = sorted (same_group_key_words.iteritems(), key=operator.itemgetter(1), reverse=True)   
-        static_filename = group_name + '_' + str(n)+ '_statics.txt'
-
-            w = codecs.open(static_filename, "w", "utf-8")
-            for k,v in words_sorted[:n]:
-                w.write ('%s %d\n' % (k,v))
-            w.close()
-
+    return group_dir
 
 
 if __name__ == "__main__":
     if len (sys.argv)!=2:
-        print 'Usage : %s filename ' % sys.argv[0]
+        print 'Usage :  text file'
         exit(1)
     if not os.path.isfile (sys.argv[1]):
         print 'file not exists %s ' % sys.argv[1]

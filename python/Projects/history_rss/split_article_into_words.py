@@ -1,5 +1,8 @@
 #encoding=utf-8
 
+import re
+import string
+
 def stop_words ():
     sign = '、 。 ， ： “ ” ？ 》 《 ！ , " ! . 【 】 （ ） ～ ( ) & # ￥ $ ; / [ ] ? - _ * : % ；'.decode('utf8').split(' ')
     sign.extend ([u' ',u'\n',u'\r',u'\t',u'\\',u'的'])
