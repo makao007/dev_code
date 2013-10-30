@@ -65,6 +65,14 @@ def youdao_get_rss_records(xml_id,cookie, parent_dir='./'):
         s = fetch (url,None, cookie)
         s = s.replace('true','True').replace('false','False')
 
+        try:
+            info = eval (s)
+            start_article_index = info.get("articles")[0].get("articleIndex")
+            end_article_index = info.get("articles")[-1].get("articleIndex")
+            
+        except:
+            pass
+
         filename = os.path.join(parent_dir,str(i)+'.json')
         write_file (filename,s)
 

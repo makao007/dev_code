@@ -1,0 +1,32 @@
+财经新闻 E:\Data\rss\data\财经新闻
+读书新闻 E:\Data\rss\data\读书新闻
+房产新闻 E:\Data\rss\data\房产新闻
+军事新闻 E:\Data\rss\data\军事新闻
+科技新闻 E:\Data\rss\data\科技新闻
+女性新闻 E:\Data\rss\data\女性新闻
+汽车新闻 E:\Data\rss\data\汽车新闻
+体育新闻 E:\Data\rss\data\体育新闻
+文化教育 E:\Data\rss\data\文化教育
+星座新闻 E:\Data\rss\data\星座新闻
+游戏新闻 E:\Data\rss\data\游戏新闻
+明星娱乐 E:\Data\rss\data\娱乐新闻
+育儿指导 E:\Data\rss\data\育儿指导
+
+财经新闻 E:\Data\rss\data\博客频道\股票
+房产新闻 E:\Data\rss\data\博客频道\房产 
+科技新闻 E:\Data\rss\data\博客频道\IT
+女性新闻 E:\Data\rss\data\博客频道\女性
+汽车新闻 E:\Data\rss\data\博客频道\汽车
+体育新闻 E:\Data\rss\data\博客频道\体育
+文化教育 E:\Data\rss\data\博客频道\文化
+星座新闻 E:\Data\rss\data\博客频道\星座
+游戏新闻 E:\Data\rss\data\博客频道\游戏
+明星娱乐 E:\Data\rss\data\博客频道\娱乐
+育儿指导 E:\Data\rss\data\博客频道\育儿
+
+港澳台新闻 E:\Data\rss\data\新闻中心\港澳台新闻
+国内要闻 E:\Data\rss\data\新闻中心\国内要闻
+百姓生活 E:\Data\rss\data\新闻中心\社会万象
+百姓生活 E:\Data\rss\data\新闻中心\社会新闻
+百姓生活 E:\Data\rss\data\新闻中心\社会与法
+

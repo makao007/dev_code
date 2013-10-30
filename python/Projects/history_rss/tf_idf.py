@@ -22,7 +22,7 @@ def load_files (dir_name):
         length = 0
         for line in read(full_filename).strip().split('\n'):
             temp = line.split(' ')
-            tmp[temp[0]] = int(temp[1])
+            tmp[temp[0].lower()] = int(temp[1])
             length += int(temp[1])
         tmp['total'] = length
 
@@ -99,23 +99,25 @@ def test_category (dir_name,info):
         print result[0], result[1], result[2], content[:30].replace('\n', ' ').replace('\r','')
 
 
-def save_info (info):
-    w = open('info.dat','w')
+def save_info (info,filename):
+    w = open(filename,'w')
     pickle.dump (info,w)
     w.close()
 
-def load_info ():
-    r = open('info.dat','r')
+def load_info (filename):
+    r = open(filename,'r')
     info = pickle.load(r)
     r.close()
     return info
 
+def make_info_file (dir_name,filename):
+    info =top_k_word_bayes(load_files(dir_name),-1,False)
+    save_info (info,filename)
+    print 'make info file successful, save in',filename
 
 if __name__ == "__main__":
     #show_top_k_words (top_k_word_bayes(load_files ('keywords'),-1),30)
-    #info =top_k_word_bayes(load_files('keywords'),-1,False)
+    make_info_file('keywords','info.dat')
 
-    #save_info (info)
-    info = load_info()
-
-    test_category ('testset', info)
+    #info = load_info()
+    #test_category ('testset', info)
