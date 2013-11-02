@@ -1,0 +1,37 @@
+body,html{margin:5px 10px; padding:0px;}
+a {text-decoration: none;}
+a img{border:none;}
+#top,#main,#bottom {margin:0 auto;width:975px; clear:both;}
+#top{border-bottom:1px solid #f3f3f3; height:50px;}
+#top img{float:left; margin:3px 8px;}
+#top form{margin:10px 15px; padding:0px; float:left;}
+#search{margin:0px; padding:0px; height:25px; width:400px; border:1px outset #008888; font-size:17px;}
+#submit{margin:0px;padding:0px 4px; height:25px; background:#f3f3f3; border-top:1px solid #008888; border-right:1px solid #008888; border-bottom:1px solid #008888; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius:3px;}
+#left{float:left; width: 64%;}
+#ltitle {font-size:16px; margin-top:20px; padding-bottom:10px; border-bottom:1px solid #00DDDD; width:100%; text-align:left; color:#0044bb}
+#right{float:left; width:32%; margin-left:10px;}
+#rtitle {font-size:15px; margin-top:15px; padding-bottom:4px; border-bottom:1px solid #00DDDD; width:100%; text-align:left; color:#007799}
+#sub-title {font-size:14px; margin:3px;}
+#sub-description{font-size:13px; margin-bottom:10px;}
+#sub-info {font-size:12px;} 
+#sub-info:hover{background:#D7FFF0;}
+#sub-info img{float:left; clear:left; padding:3px; margin:3px; border:1px solid #00dddd; width:90px; height:60px;}
+#sub-info-detail{height:75px; clear:both; margin:10px 3px; }
+#sub-info-detail p{font-size:11px; height:32px; overflow: hidden; text-overflow:ellipsis; margin:0px; padding:0px;}
+
+#lcategory{float:left; width:290px; height:120px; margin:5px 5px 15px 6px; padding:3px;}
+#lcategory:hover{background:#D7FFF0;}
+
+#lctitle{height:20px;} 
+#lc_info img{float:left; clear:left; border:1px solid #00dddd; padding:3px; margin:5px; width:120px; height:80px;}
+#lc_info span {font-size:11px; overflow:hidden;}
+#lc_info:hover {background:#D7FFF0;}
+p#v_title{font-size:11px; height:32px; overflow: hidden; text-overflow:ellipsis; margin:0px; padding:0px;}
+
+#lc_info_search{width:95%; height:90px; padding:10px 4px; border-bottom:1px dotted #008888; margin-bottom:10px;}
+#lc_info_search img{float:left; clear:left; border:1px solid #00dddd; padding:3px; margin:5px; width:120px; height:80px;}
+#lc_info_search span{font-size:12px; padding:8px; margin:15px;}
+
+p#v_text{font-size:11px; height:22px; overflow: hidden; text-overflow:ellipsis; margin:0px; padding:0px;}
+p#v_desc{font-size:11px; height:53px; overflow: hidden; text-overflow:ellipsis; margin:0px; padding:0px;}:w
+#bottom {}
