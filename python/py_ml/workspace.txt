@@ -7,7 +7,13 @@ http://scikit-learn.org/dev/install.html
   download and run ez_setup.py    (http://pypi.python.org/pypi/setuptools#windows)
   you will find the easy_install.exe in [python_path]/Scripts/ 
 2. install scikit-learn in easy_install
+  easy_install -U numpy
+  easy_install -U scipy
+  easy_install -U matplotlib
   easy_install -U scikit-learn
+  
+  // has error , install mingw, setup.py install build --compiler=mingw32
+  
 
 
   
