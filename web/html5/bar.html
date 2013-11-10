@@ -1,0 +1,128 @@
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>draw Bar Demo</title>
+</head>
+<body>
+    
+</body>
+
+<script type="text/javascript" charset="utf-8">
+
+    function draw_rectangle (context ,x,y,width,height,color,text){
+        //context.strokeRect(0, 0, width*p, height); // 只勾画出矩形的外框
+        /*
+        x = Math.round(x);
+        y = Math.round(y);
+        width  = Math.round(width);
+        height = Math.round(height)-5;
+        console.log (x + " " + y + " " + width + " " + height);
+        */
+
+        context.fillStyle = color;
+        context.fillRect(x, y, width, height);
+        if (text) {
+            if (!isNaN (text) && parseInt(text)!=text) {
+                text = text.toFixed(2);
+            }
+            context.lineWidth = 1;
+            context.strokeStyle = "#000";
+            context.strokeText(text,x,y-3)
+        }
+    }
+
+
+
+    function bar (x,y,width,height,values,opt) {
+        var canvas = document.createElement('canvas');
+        var context = canvas.getContext('2d');
+        canvas.style.position = "relative";
+        canvas.style.top  = x + "px";
+        canvas.style.left = y + "px";
+        canvas.width  = width;
+        canvas.height = height;
+        canvas.innerHTML = "Your browser does not support the canvas element.";
+
+        var margin_width  = (1-0.1);
+        var margin_height = (1-0.1);
+        var width_empty   =  20;
+        var height_empty  =  20;
+
+        var value_len = values.length;
+        var value_min = Math.min.apply( Math, values);
+        var value_max = Math.max.apply( Math, values);
+
+        var rectangle_width = (width - width_empty) / value_len ;
+        var rectangle_height_max = (height - height_empty) * margin_height;
+
+        var draw_coordinate = true;
+        if (draw_coordinate ) {
+            context.strokeStyle = "#000";
+            context.lineWidth = 2;
+            context.moveTo(width_empty , height - height_empty);
+            context.lineTo(width_empty , 0);
+            context.lineWidth = 2;
+            context.moveTo(width_empty , height - height_empty);
+            context.lineTo(width, height - height_empty);
+            context.stroke();
+
+
+            var width_per_value = 100;
+            var n = Math.ceil(width_per_value / rectangle_width);
+            var x_n = 10;
+            if (n < 10) {
+                x_n = 5;
+            } else if (n < 50) {
+                x_n = 10 ;
+            } else if (n < 100) {
+                x_n = 20;
+            } else if (n < 200) {
+                x_n = 50;
+            } else {
+                x_n = 100;
+            }
+        
+            // show the x coordinate
+            for (var i=values.length-1; i>=0; i--) {
+                if (i % x_n == 0) {
+                    context.lineWidth = 1;
+                    draw_rectangle (context, width_empty + (i+0.5) * rectangle_width - 4 / 2, height - height_empty , 4 , 6, "black");
+                    context.strokeText (i+1, width_empty + (i+0.5) * rectangle_width - ((i+1)+"").length*3, height - height_empty+13 );
+                }
+            }
+
+
+            // print the y coordinate
+            var height_n = 10;
+            var height_max = (parseInt((value_max + "").slice(0,2)) + 1 ) * Math.pow(10,(value_max.toFixed()+"").length-2)
+            for (var i=0; i<= height_n ; i++) {
+                    context.lineWidth = 1;
+                    draw_rectangle (context, width_empty-6, (i+1) / height_n * (height*margin_height-height_empty) - 4 , 6 , 4, "black");
+                    context.strokeText (((height_n-i) * height_max / height_n).toFixed() , 1, (i+1) / height_n * (height*margin_height-height_empty) + 10);
+                
+            }
+
+            
+
+        }
+        
+
+        for (var i=values.length-1; i>=0; i--) {
+            var rect_height = rectangle_height_max * (values[i]/value_max);
+            draw_rectangle (context, (i + 1 - margin_width) * rectangle_width + width_empty, height - rect_height - height_empty - 2 ,  rectangle_width*margin_width, rect_height,'blue',values[i]);
+        }
+
+        document.body.appendChild(canvas);
+        return canvas;
+
+    }
+
+    x = bar(100,200,300,400,[100,200,300,400,450,340,360,370,400],{});
+    x = bar(100,200,300,400,[100,200,300,400,450,100,100,200,100,300,300,200,200,20,200,29,30,201,203,232.2,231,23,60],{});
+    con = x.getContext ('2d');
+    con.fillStyle="blue";
+
+    
+</script>
+
+</html>
