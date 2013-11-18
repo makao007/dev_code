@@ -7,25 +7,56 @@ import re
 from math import ceil,sqrt,log
 
 def remove_js_css (content):
-    """ remove the the javascript and the stylesheet content (<script>....</script> and <style>....</style>) """
+    """ remove the the javascript and the stylesheet and the comment content (<script>....</script> and <style>....</style> <!-- xxx -->) """
     r = re.compile(r'''<script.*?</script>''',re.I|re.M|re.S)
     s = r.sub ('',content)
 
     r = re.compile(r'''<style.*?</style>''',re.I|re.M|re.S)
     s = r.sub ('', s)
 
+    r = re.compile(r'''<!--.*?-->''', re.I|re.M|re.S)
+    s = r.sub('',s)
+
+    r = re.compile(r'''<meta.*?>''', re.I|re.M|re.S)
+    s = r.sub('',s)
+
+    r = re.compile(r'''<ins.*?</ins>''', re.I|re.M|re.S)
+    s = r.sub('',s)
+
     return s
 
 
-def remove_multi_space (content):
+def remove_empty_line (content):
     """remove multi space """
-    r = re.compile(r'''^\s+''',re.S|re.M)
-    s = r.sub ('', s)
-    return s.replace('\r','').replace('\n','').replace('&nbsp;',' ')
+    r = re.compile(r'''^\s+$''', re.M|re.S)
+    s = r.sub ('', content)
+
+    r = re.compile(r'''\n+''',re.M|re.S)
+    s = r.sub('\n',s)
+
+    return s
 
 def remove_any_tag (s):
     s = re.sub(r'''<[^>]+>''','',s)
     return s.strip()
+
+def remove_any_tag_but_a (s):
+    text = re.findall (r'''<a[^r][^>]*>(.*?)</a>''',s,re.I|re.S|re.S)
+    text_b = remove_any_tag (s)
+    return len(''.join(text)),len(text_b)
+
+def remove_image (s):
+    image = 'a' * 50
+    r = re.compile (r'''<img.*?>''',re.I|re.M|re.S)
+    s = r.sub(image,s)
+    return s
+
+def remove_video (s):
+    video = 'a' * 1000
+    r = re.compile (r'''<embed.*?>''',re.I|re.M|re.S)
+    s = r.sub(video,s)
+    return s
+
 
 def split_by_tag_a (content):
     if not content:
@@ -138,10 +169,70 @@ def extract_context (url):
         return '</a>\n'.join(lines[l:r]) + "</a>"
 
 
+def sum_max (values):
+    cur_max = values[0]
+    glo_max = -999999
+    left,right = 0,0
+    for index,value in enumerate (values):
+        cur_max += value
+        if (cur_max > glo_max) :
+            glo_max = cur_max
+            right = index
+        elif (cur_max < 0):
+            cur_max = 0
+
+    for i in range(right, -1, -1):
+        glo_max -= values[i]
+        if abs(glo_max < 0.00001):
+            left = i
+            break
+    return left,right+1
+
+
+def method_1 (content,k=1):
+    """ this method is base on a paper placed at google code 
+        http://code.google.com/p/cx-extractor/
+        this way will not get good result when where is some pictures which need to show in the article
+    """
+    content = remove_empty_line(remove_js_css(content))
+    tmp = content.split('\n')
+
+    # compute the text's length difference inside and outside the HTML tag
+    group_value = []
+    for i in range(0,len(tmp),k):
+        group = '\n'.join(tmp[i:i+k])
+        group = remove_image (group)
+        no_tag = remove_any_tag (group)
+        temp =  2.0 * len(no_tag) - len (group)
+        group_value.append (temp)
+    left,right = sum_max (group_value)
+    return left,right, len('\n'.join(tmp[:left])), len ('\n'.join(tmp[:right]))
+
+def method_2 (content, k=1):
+    if not content:
+        return None,None,None,None
+    content = remove_empty_line(remove_js_css(content))
+    tmp = content.split('\n')
+    group_value = []
+    for i in range(0,len(tmp),k):
+        group = '\n'.join(tmp[i:i+k])
+        group = remove_image (group)
+        group = remove_video (group)
+        text_a,text_b= remove_any_tag_but_a (group)
+        temp = (text_b - text_a) - 8 
+        group_value.append (temp)
+    left,right = sum_max (group_value)
+    return left,right, len('\n'.join(tmp[:left])), len ('\n'.join(tmp[:right]))
+
+
 def find_content_position (content):
-    pass
+    return method_2 (content)
 
 def find_content_position_known (content,start_partern, end_partern):
+    if not content:
+        return None,None,None,None
+    content = remove_empty_line(remove_js_css(content))
+    
     start_index = content.index(start_partern)
     end_index   = content.index(end_partern)
     start_line  = content[:start_index].count('\n')
