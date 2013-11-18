@@ -1,0 +1,7 @@
+#coding=utf-8
+import time
+t = str(time.time()).replace('.','') + '0'
+
+r0 = r'''"url_show":"\\(/articles\\/\d+\.htm)"'''
+url = 'http://www.cnbeta.com/more.htm?jsoncallback=jQuery18005311527119483799_1384665650602&type=all&page={{1-100}}'
+keys=[[url,'cnbeta',[r0]]]

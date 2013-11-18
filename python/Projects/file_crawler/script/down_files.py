@@ -7,20 +7,7 @@ import re
 import os
 import time
 
-def fetch (url):
-    try:
-        timeout_second = 20
-        if not url.lower().startswith('http'):
-            url = 'http://' + url
-        request = urllib2.Request(url)
-        request.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36')
-        response = urllib2.urlopen(request, timeout=timeout_second)
-        content = response.read()
-    except IOError:
-        print 'Error download %s fail ' % url
-        return ''
-
-    return content
+from fetch import fetch
 
 def find_url(url,param):
     content = fetch(url)
@@ -33,7 +20,7 @@ def show_url (urls):
     return urls
 
 def write_url (urls,filename='urls.txt'):
-    w = open(filename,'wa+')
+    w = open(filename,'a+')
     w.write('\n'.join(urls))
     w.close()
 
@@ -75,22 +62,24 @@ def download_to_local(urls,dirname='',exist_skip=True,succ_log='succ_download.lo
     fail_urls = []
     down_urls = []
     for url in urls:
+        url = url.replace(r'\/','/')
         print 'downloading file %s' % url
         filename = urllib.unquote(os.path.split(urlparse.urlparse(url)[2])[1])
         dirname  = urllib.unquote(dirname)
         filepath = os.path.join(dirname,filename)
         timestamp = time.strftime("%Y-%m-%d %H-%M-%S  ", time.localtime())
+        status_msg = ""
         try:
             if os.path.isfile(filepath) and exist_skip:
-                down_urls.append ("%s %10s %s" % (timestamp, 'exists', url)) 
+                status_msg = 'exists'
             else:
                 urllib.urlretrieve(url,filepath)          #download the file to local PC
-                down_urls.append ("%s %10s %s" % (timestamp, 'download', url))
-                succ_urls.append (timestamp + url)
+                status_msg = 'download'
+                succ_urls.append ("%s %s\n" % (timestamp, url))
         except IOError:
-            timestamp = time.strftime("%Y-%m-%d %H-%M-%S  ", time.localtime())
-            down_urls.append ("%s %10s %s" % (timestamp, 'fail', url)) 
-            fail_urls.append (timestamp + url)
+            status_msg = 'fail'
+            fail_urls.append ("%s %s\n" % (timestamp,url) )
+        down_urls.append ("%s %10s %s\n" % (timestamp, status_msg, url)) 
     write_url (succ_urls, os.path.join(dirname,succ_log))
     write_url (fail_urls, os.path.join(dirname,fail_log))
     write_url (down_urls, os.path.join(dirname,download_log))
@@ -99,9 +88,9 @@ def make_url(template_url):
     if '{{' not in template_url:
         return [template_url]
     num = re.findall(r'''\{\{(\d+)-(\d+)\}\}''',template_url)
-    tem = re.findall(r'''([^\{]+)\{\{\d+-\d+\}\}(.+)''',template_url)
+    tem = re.findall(r'''([^\{]+)\{\{\d+-\d+\}\}(.*)''',template_url)
+    result = []
     if num and tem:
-        result = []
         for i in range(int(num[0][0]),int(num[0][1])+1):
             result.append ( tem[0][0] + str(i) + tem[0][1] )
     return result
