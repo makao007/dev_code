@@ -3,6 +3,7 @@
 import os
 
 from extract import *
+from test_extract import * 
 
 
 def list_all_file (dir_name):
@@ -63,7 +64,7 @@ def make_feature (dir_name):
 
 
         if score > 0.1 :
-            print filename
+            print score,filename
 
         result.append (msg)
         result.append (msg2)
@@ -78,7 +79,7 @@ def make_feature (dir_name):
 
 
 if __name__ == "__main__":
-    make_feature("d:/Data/cnbeta/")
+    #make_feature("d:/Data/cnbeta/")
     #make_feature("d:/Data/small_cnbeta")
-    #make_feature("d:/Data/middle_cnbeta")
+    make_feature("d:/Data/middle_cnbeta")
 
