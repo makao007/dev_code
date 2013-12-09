@@ -29,5 +29,9 @@ route add default gw 192.168.0.1
 find /etc -name “*” | xargs grep “hello abcserver” > ./cqtest.txt
 
 
+git http 不用每次输入密码
+vi .git/config 
+url = https://[username]:[password]@git.duapp.com/appidgq5en1td69/
+
 
 

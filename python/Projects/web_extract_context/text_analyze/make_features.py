@@ -26,9 +26,12 @@ def write_file (filename,content):
 
 
 
-def make_feature (dir_name):
+def make_feature (dir_name,start_match,end_match):
     """ extract the feature for cnbeta test data set"""
-    filenames = filter_files (list_all_file (dir_name),['.html','.htm'])
+    filenames = filter_files (list_all_file (dir_name),['.html','.htm','.shtml'])
+    if len(filenames)==0:
+        print 'this folder does not has any file ',dir_name
+        return
     result = []
     index = 1
     total_score = 0.0
@@ -38,14 +41,16 @@ def make_feature (dir_name):
         total_lines = float(content.count('\n'))
 
 
-        start,end,start_index,end_index  = find_content_position_known (content, \
-                '<div class="introduction">','                    <div class="clear"></div>')
-        msg  = ("%-8d %-8d %-8d %-8d %s" % (start,end, start_index, end_index, filename))
+        start,end,start_index,end_index  = find_content_position_known (content, start_match, end_match)
+        if start is None:
+            print 'Error in file',filename
+            continue
+        msg  = ("\t %-8d %-8d %-8d %-8d %s" % (start,end, start_index, end_index, filename))
         write_file ('generate_known/' + os.path.split(filename)[1], '\n'.join(content.split('\n')[start:end]))
 
 
         start_2,end_2,start_index,end_index  = find_content_position (content)
-        msg2 = ("%-8d %-8d %-8d %-8d %s" % (start_2,end_2, start_index, end_index, filename))
+        msg2 = ("\t %-8d %-8d %-8d %-8d %s" % (start_2,end_2, start_index, end_index, filename))
         write_file ('generate_unknown/' + os.path.split(filename)[1], '\n'.join(content.split('\n')[start_2:end_2]))
 
         score = 0
@@ -68,7 +73,7 @@ def make_feature (dir_name):
 
         result.append (msg)
         result.append (msg2)
-        result.append ('-----   %.3f' % score)
+        result.append ('%.3f-----' % score)
         print index
         if index == 1000:
             break
@@ -81,5 +86,6 @@ def make_feature (dir_name):
 if __name__ == "__main__":
     #make_feature("d:/Data/cnbeta/")
     #make_feature("d:/Data/small_cnbeta")
-    make_feature("d:/Data/middle_cnbeta")
+    #make_feature("d:/Data/middle_cnbeta",'<div class="introduction">', '                    <div class="clear"></div>')
+    make_feature("d:/Data/ifeng_news", '<div id="main_content">','<span class="ifengLogo">')
 

@@ -1,5 +1,6 @@
 #coding:utf-8
 import re
+import math
 
 def to_utf8 (s):
     try :
@@ -21,6 +22,8 @@ def remove_js_css (content):
     r = re.compile(r'''<meta.*?>''', re.I|re.M|re.S)
     s = r.sub('',s)
     r = re.compile(r'''<ins.*?</ins>''', re.I|re.M|re.S)
+    s = r.sub('',s)
+    r = re.compile(r'''<textarea.*?</textarea>''', re.I|re.M|re.S)
     s = r.sub('',s)
     return s
 
@@ -97,7 +100,7 @@ def method_1 (content, k=1):
         group = remove_image (group)
         group = remove_video (group)
         text_a,text_b= remove_any_tag_but_a (group)
-        temp = (text_b - text_a) - 8
+        temp = ((text_b - text_a) - 8 )/math.log(group.count('<')+math.exp(1))
         group_value.append (temp)
     left,right = sum_max (group_value)
     return left,right, len('\n'.join(tmp[:left])), len ('\n'.join(tmp[:right]))

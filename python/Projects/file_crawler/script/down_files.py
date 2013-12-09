@@ -43,8 +43,6 @@ def find_match(urls,param):
         #find the "brother" match url
         if param2:
             temp = re.findall(param2, content,re.S|re.M|re.I)
-            print 'find param2',param2
-            print temp
             for i in temp:
                 next_url = urllib.unquote(urlparse.urljoin(url,i))
                 result.extend(find_match ([next_url],param))

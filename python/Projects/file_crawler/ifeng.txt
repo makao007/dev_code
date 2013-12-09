@@ -1,0 +1,6 @@
+#coding=utf-8
+
+r0=r'''<a href="(http://news.ifeng.com/[^"]+?_\d\.shtml)" [^>]*>[^<]+</a>'''
+
+keys=[['http://news.ifeng.com/','ifeng_news',[r0]], ]
+

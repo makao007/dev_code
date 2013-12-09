@@ -1,0 +1,601 @@
+	 173      177      9232     10981    d:/Data/middle_cnbeta\255073.htm
+	 175      177      9531     10980    d:/Data/middle_cnbeta\255073.htm
+0.011-----
+	 173      177      9286     11497    d:/Data/middle_cnbeta\255074.htm
+	 175      177      9600     11496    d:/Data/middle_cnbeta\255074.htm
+0.011-----
+	 173      180      9259     11681    d:/Data/middle_cnbeta\255075.htm
+	 175      180      9577     11680    d:/Data/middle_cnbeta\255075.htm
+0.011-----
+	 173      197      9333     12359    d:/Data/middle_cnbeta\255076.htm
+	 175      196      9659     12347    d:/Data/middle_cnbeta\255076.htm
+0.015-----
+	 173      224      9317     12848    d:/Data/middle_cnbeta\255077.htm
+	 175      214      9628     12349    d:/Data/middle_cnbeta\255077.htm
+0.057-----
+	 173      205      9329     11569    d:/Data/middle_cnbeta\255078.htm
+	 176      201      9692     11366    d:/Data/middle_cnbeta\255078.htm
+0.035-----
+	 173      177      9293     11207    d:/Data/middle_cnbeta\255079.htm
+	 175      177      9592     11206    d:/Data/middle_cnbeta\255079.htm
+0.011-----
+	 173      177      9319     11364    d:/Data/middle_cnbeta\255080.htm
+	 175      177      9639     11363    d:/Data/middle_cnbeta\255080.htm
+0.011-----
+	 173      177      9274     11845    d:/Data/middle_cnbeta\255081.htm
+	 175      177      9597     11844    d:/Data/middle_cnbeta\255081.htm
+0.011-----
+	 173      190      9268     11236    d:/Data/middle_cnbeta\255082.htm
+	 176      186      9608     11047    d:/Data/middle_cnbeta\255082.htm
+0.036-----
+	 173      179      9303     15195    d:/Data/middle_cnbeta\255083.htm
+	 175      179      9643     15194    d:/Data/middle_cnbeta\255083.htm
+0.011-----
+	 173      177      9283     12161    d:/Data/middle_cnbeta\255084.htm
+	 175      177      9594     12160    d:/Data/middle_cnbeta\255084.htm
+0.011-----
+	 173      177      9279     11313    d:/Data/middle_cnbeta\255085.htm
+	 175      177      9581     11312    d:/Data/middle_cnbeta\255085.htm
+0.011-----
+	 173      177      9277     10531    d:/Data/middle_cnbeta\255086.htm
+	 175      177      9592     10530    d:/Data/middle_cnbeta\255086.htm
+0.011-----
+	 173      180      9273     11288    d:/Data/middle_cnbeta\255087.htm
+	 175      180      9590     11287    d:/Data/middle_cnbeta\255087.htm
+0.011-----
+	 173      177      9267     11242    d:/Data/middle_cnbeta\255088.htm
+	 175      177      9584     11241    d:/Data/middle_cnbeta\255088.htm
+0.011-----
+	 173      178      9251     11038    d:/Data/middle_cnbeta\255089.htm
+	 175      178      9568     11037    d:/Data/middle_cnbeta\255089.htm
+0.011-----
+	 173      179      9339     11537    d:/Data/middle_cnbeta\255090.htm
+	 176      179      9700     11536    d:/Data/middle_cnbeta\255090.htm
+0.016-----
+	 173      177      9241     10939    d:/Data/middle_cnbeta\255091.htm
+	 175      177      9544     10938    d:/Data/middle_cnbeta\255091.htm
+0.011-----
+	 173      191      9292     11348    d:/Data/middle_cnbeta\255092.htm
+	 175      187      9601     11009    d:/Data/middle_cnbeta\255092.htm
+0.031-----
+	 173      177      9299     11407    d:/Data/middle_cnbeta\255093.htm
+	 175      177      9625     11406    d:/Data/middle_cnbeta\255093.htm
+0.011-----
+	 173      177      9307     11859    d:/Data/middle_cnbeta\255094.htm
+	 175      177      9633     11858    d:/Data/middle_cnbeta\255094.htm
+0.011-----
+	 173      177      9327     11857    d:/Data/middle_cnbeta\255095.htm
+	 175      177      9653     11856    d:/Data/middle_cnbeta\255095.htm
+0.011-----
+	 173      177      9318     12275    d:/Data/middle_cnbeta\255096.htm
+	 175      177      9629     12274    d:/Data/middle_cnbeta\255096.htm
+0.011-----
+	 173      196      9279     11818    d:/Data/middle_cnbeta\255097.htm
+	 176      192      9648     11598    d:/Data/middle_cnbeta\255097.htm
+0.036-----
+	 173      177      9308     12455    d:/Data/middle_cnbeta\255098.htm
+	 175      177      9619     12454    d:/Data/middle_cnbeta\255098.htm
+0.011-----
+	 173      179      9288     11205    d:/Data/middle_cnbeta\255099.htm
+	 176      179      9634     11204    d:/Data/middle_cnbeta\255099.htm
+0.016-----
+	 173      177      9284     10647    d:/Data/middle_cnbeta\255100.htm
+	 175      177      9598     10646    d:/Data/middle_cnbeta\255100.htm
+0.011-----
+	 173      177      9302     11735    d:/Data/middle_cnbeta\255101.htm
+	 175      177      9614     11734    d:/Data/middle_cnbeta\255101.htm
+0.011-----
+	 173      177      9310     11279    d:/Data/middle_cnbeta\255102.htm
+	 175      177      9647     11278    d:/Data/middle_cnbeta\255102.htm
+0.011-----
+	 173      177      9283     11082    d:/Data/middle_cnbeta\255103.htm
+	 175      177      9593     11081    d:/Data/middle_cnbeta\255103.htm
+0.011-----
+	 173      178      9312     13928    d:/Data/middle_cnbeta\255104.htm
+	 175      178      9638     13927    d:/Data/middle_cnbeta\255104.htm
+0.011-----
+	 173      177      9289     12253    d:/Data/middle_cnbeta\255105.htm
+	 175      177      9604     12252    d:/Data/middle_cnbeta\255105.htm
+0.011-----
+	 173      178      9261     11745    d:/Data/middle_cnbeta\255106.htm
+	 175      177      9578     11724    d:/Data/middle_cnbeta\255106.htm
+0.016-----
+	 173      177      9274     10511    d:/Data/middle_cnbeta\255107.htm
+	 175      177      9588     10510    d:/Data/middle_cnbeta\255107.htm
+0.011-----
+	 173      177      9289     11730    d:/Data/middle_cnbeta\255108.htm
+	 175      177      9606     11729    d:/Data/middle_cnbeta\255108.htm
+0.011-----
+	 173      177      9269     10608    d:/Data/middle_cnbeta\255109.htm
+	 175      177      9575     10607    d:/Data/middle_cnbeta\255109.htm
+0.011-----
+	 173      177      9222     10189    d:/Data/middle_cnbeta\255110.htm
+	 175      177      9528     10188    d:/Data/middle_cnbeta\255110.htm
+0.011-----
+	 173      179      9289     15678    d:/Data/middle_cnbeta\255111.htm
+	 175      179      9603     15677    d:/Data/middle_cnbeta\255111.htm
+0.011-----
+	 173      177      9250     18226    d:/Data/middle_cnbeta\255112.htm
+	 175      177      9544     18225    d:/Data/middle_cnbeta\255112.htm
+0.011-----
+	 173      177      9253     10861    d:/Data/middle_cnbeta\255113.htm
+	 175      177      9549     10860    d:/Data/middle_cnbeta\255113.htm
+0.011-----
+	 173      180      9274     11761    d:/Data/middle_cnbeta\255114.htm
+	 175      180      9574     11760    d:/Data/middle_cnbeta\255114.htm
+0.011-----
+	 173      177      9216     15803    d:/Data/middle_cnbeta\255115.htm
+	 175      177      9520     15802    d:/Data/middle_cnbeta\255115.htm
+0.011-----
+	 173      177      9296     14395    d:/Data/middle_cnbeta\255116.htm
+	 175      177      9596     14394    d:/Data/middle_cnbeta\255116.htm
+0.011-----
+	 173      178      9274     15594    d:/Data/middle_cnbeta\255117.htm
+	 175      178      9589     15593    d:/Data/middle_cnbeta\255117.htm
+0.011-----
+	 173      178      9294     11640    d:/Data/middle_cnbeta\255118.htm
+	 175      178      9608     11639    d:/Data/middle_cnbeta\255118.htm
+0.011-----
+	 173      177      9376     11501    d:/Data/middle_cnbeta\255119.htm
+	 175      177      9680     11500    d:/Data/middle_cnbeta\255119.htm
+0.011-----
+	 173      177      9291     10947    d:/Data/middle_cnbeta\255120.htm
+	 175      177      9597     10946    d:/Data/middle_cnbeta\255120.htm
+0.011-----
+	 173      177      9333     10480    d:/Data/middle_cnbeta\255121.htm
+	 175      177      9650     10479    d:/Data/middle_cnbeta\255121.htm
+0.011-----
+	 173      177      9277     10892    d:/Data/middle_cnbeta\255122.htm
+	 175      177      9584     10891    d:/Data/middle_cnbeta\255122.htm
+0.011-----
+	 173      177      9245     11573    d:/Data/middle_cnbeta\255123.htm
+	 175      177      9551     11572    d:/Data/middle_cnbeta\255123.htm
+0.011-----
+	 173      177      9369     10671    d:/Data/middle_cnbeta\255124.htm
+	 175      177      9675     10670    d:/Data/middle_cnbeta\255124.htm
+0.011-----
+	 173      177      9280     10592    d:/Data/middle_cnbeta\255125.htm
+	 175      177      9597     10591    d:/Data/middle_cnbeta\255125.htm
+0.011-----
+	 173      178      9286     15244    d:/Data/middle_cnbeta\255126.htm
+	 175      178      9600     15243    d:/Data/middle_cnbeta\255126.htm
+0.011-----
+	 173      177      9284     13215    d:/Data/middle_cnbeta\255127.htm
+	 175      177      9584     13214    d:/Data/middle_cnbeta\255127.htm
+0.011-----
+	 173      178      9297     13099    d:/Data/middle_cnbeta\255128.htm
+	 175      178      9628     13098    d:/Data/middle_cnbeta\255128.htm
+0.011-----
+	 173      178      9278     12544    d:/Data/middle_cnbeta\255129.htm
+	 175      178      9574     12543    d:/Data/middle_cnbeta\255129.htm
+0.011-----
+	 173      177      9296     10737    d:/Data/middle_cnbeta\255130.htm
+	 175      177      9619     10736    d:/Data/middle_cnbeta\255130.htm
+0.011-----
+	 173      177      9254     11040    d:/Data/middle_cnbeta\255131.htm
+	 175      177      9571     11039    d:/Data/middle_cnbeta\255131.htm
+0.011-----
+	 173      177      9286     10713    d:/Data/middle_cnbeta\255132.htm
+	 175      177      9595     10712    d:/Data/middle_cnbeta\255132.htm
+0.011-----
+	 173      177      9238     10793    d:/Data/middle_cnbeta\255133.htm
+	 175      177      9552     10792    d:/Data/middle_cnbeta\255133.htm
+0.011-----
+	 173      177      9316     10810    d:/Data/middle_cnbeta\255134.htm
+	 175      177      9637     10809    d:/Data/middle_cnbeta\255134.htm
+0.011-----
+	 173      179      9324     10908    d:/Data/middle_cnbeta\255135.htm
+	 175      179      9645     10907    d:/Data/middle_cnbeta\255135.htm
+0.011-----
+	 173      177      9290     11805    d:/Data/middle_cnbeta\255136.htm
+	 175      177      9601     11804    d:/Data/middle_cnbeta\255136.htm
+0.011-----
+	 173      178      9292     11595    d:/Data/middle_cnbeta\255137.htm
+	 175      178      9592     11594    d:/Data/middle_cnbeta\255137.htm
+0.011-----
+	 173      179      9280     11576    d:/Data/middle_cnbeta\255138.htm
+	 175      179      9580     11575    d:/Data/middle_cnbeta\255138.htm
+0.011-----
+	 173      177      9268     10998    d:/Data/middle_cnbeta\255139.htm
+	 175      177      9569     10997    d:/Data/middle_cnbeta\255139.htm
+0.011-----
+	 173      177      9219     11387    d:/Data/middle_cnbeta\255140.htm
+	 175      177      9545     11386    d:/Data/middle_cnbeta\255140.htm
+0.011-----
+	 173      200      9254     19131    d:/Data/middle_cnbeta\255141.htm
+	 175      200      9571     19130    d:/Data/middle_cnbeta\255141.htm
+0.010-----
+	 173      183      9277     14780    d:/Data/middle_cnbeta\255142.htm
+	 175      183      9581     14779    d:/Data/middle_cnbeta\255142.htm
+0.011-----
+	 173      177      9267     10837    d:/Data/middle_cnbeta\255143.htm
+	 175      177      9584     10836    d:/Data/middle_cnbeta\255143.htm
+0.011-----
+	 173      199      9301     11571    d:/Data/middle_cnbeta\255144.htm
+	 176      195      9670     11376    d:/Data/middle_cnbeta\255144.htm
+0.036-----
+	 173      177      9278     12413    d:/Data/middle_cnbeta\255145.htm
+	 175      177      9595     12412    d:/Data/middle_cnbeta\255145.htm
+0.011-----
+	 173      177      9270     11986    d:/Data/middle_cnbeta\255146.htm
+	 175      177      9581     11985    d:/Data/middle_cnbeta\255146.htm
+0.011-----
+	 173      177      9245     10726    d:/Data/middle_cnbeta\255147.htm
+	 175      177      9539     10725    d:/Data/middle_cnbeta\255147.htm
+0.011-----
+	 173      177      9274     12177    d:/Data/middle_cnbeta\255148.htm
+	 175      177      9580     12176    d:/Data/middle_cnbeta\255148.htm
+0.011-----
+	 173      177      9265     11733    d:/Data/middle_cnbeta\255149.htm
+	 175      177      9582     11732    d:/Data/middle_cnbeta\255149.htm
+0.011-----
+	 173      177      9287     12128    d:/Data/middle_cnbeta\255150.htm
+	 175      177      9599     12127    d:/Data/middle_cnbeta\255150.htm
+0.011-----
+	 173      178      9295     10834    d:/Data/middle_cnbeta\255151.htm
+	 175      178      9609     10833    d:/Data/middle_cnbeta\255151.htm
+0.011-----
+	 173      177      9355     13290    d:/Data/middle_cnbeta\255152.htm
+	 175      177      9667     13289    d:/Data/middle_cnbeta\255152.htm
+0.011-----
+	 173      177      9317     11776    d:/Data/middle_cnbeta\255153.htm
+	 175      177      9623     11775    d:/Data/middle_cnbeta\255153.htm
+0.011-----
+	 173      177      9329     14945    d:/Data/middle_cnbeta\255154.htm
+	 175      177      9636     14944    d:/Data/middle_cnbeta\255154.htm
+0.011-----
+	 173      177      9282     10549    d:/Data/middle_cnbeta\255155.htm
+	 175      177      9591     10548    d:/Data/middle_cnbeta\255155.htm
+0.011-----
+	 173      177      9303     11388    d:/Data/middle_cnbeta\255156.htm
+	 175      177      9614     11387    d:/Data/middle_cnbeta\255156.htm
+0.011-----
+	 173      177      9285     10756    d:/Data/middle_cnbeta\255157.htm
+	 175      177      9594     10755    d:/Data/middle_cnbeta\255157.htm
+0.011-----
+	 173      177      9328     11517    d:/Data/middle_cnbeta\255158.htm
+	 175      177      9639     11516    d:/Data/middle_cnbeta\255158.htm
+0.011-----
+	 173      177      9317     11312    d:/Data/middle_cnbeta\255159.htm
+	 175      177      9616     11311    d:/Data/middle_cnbeta\255159.htm
+0.011-----
+	 173      177      9339     11204    d:/Data/middle_cnbeta\255161.htm
+	 175      177      9679     11203    d:/Data/middle_cnbeta\255161.htm
+0.011-----
+	 173      200      9339     11502    d:/Data/middle_cnbeta\255162.htm
+	 175      196      9679     11326    d:/Data/middle_cnbeta\255162.htm
+0.030-----
+	 173      177      9284     10724    d:/Data/middle_cnbeta\255163.htm
+	 175      177      9592     10723    d:/Data/middle_cnbeta\255163.htm
+0.011-----
+	 173      177      9327     12074    d:/Data/middle_cnbeta\255164.htm
+	 175      177      9633     12073    d:/Data/middle_cnbeta\255164.htm
+0.011-----
+	 173      177      9324     10906    d:/Data/middle_cnbeta\255165.htm
+	 175      177      9652     10905    d:/Data/middle_cnbeta\255165.htm
+0.011-----
+	 173      177      9268     12497    d:/Data/middle_cnbeta\255166.htm
+	 175      177      9583     12496    d:/Data/middle_cnbeta\255166.htm
+0.011-----
+	 173      177      9313     10598    d:/Data/middle_cnbeta\255167.htm
+	 175      177      9627     10597    d:/Data/middle_cnbeta\255167.htm
+0.011-----
+	 173      177      9335     13143    d:/Data/middle_cnbeta\255168.htm
+	 175      177      9646     13142    d:/Data/middle_cnbeta\255168.htm
+0.011-----
+	 173      177      9324     10987    d:/Data/middle_cnbeta\255169.htm
+	 175      177      9625     10986    d:/Data/middle_cnbeta\255169.htm
+0.011-----
+	 173      177      9261     11321    d:/Data/middle_cnbeta\255170.htm
+	 175      177      9578     11320    d:/Data/middle_cnbeta\255170.htm
+0.011-----
+	 173      197      9305     12423    d:/Data/middle_cnbeta\255171.htm
+	 175      196      9616     12411    d:/Data/middle_cnbeta\255171.htm
+0.015-----
+	 173      177      9334     10925    d:/Data/middle_cnbeta\255172.htm
+	 175      177      9655     10924    d:/Data/middle_cnbeta\255172.htm
+0.011-----
+	 173      209      9317     12205    d:/Data/middle_cnbeta\255173.htm
+	 175      199      9635     11927    d:/Data/middle_cnbeta\255173.htm
+0.059-----
+	 173      177      9345     11181    d:/Data/middle_cnbeta\255174.htm
+	 175      177      9641     11180    d:/Data/middle_cnbeta\255174.htm
+0.011-----
+	 173      177      9264     10279    d:/Data/middle_cnbeta\255175.htm
+	 175      177      9573     10278    d:/Data/middle_cnbeta\255175.htm
+0.011-----
+	 173      177      9251     10652    d:/Data/middle_cnbeta\255176.htm
+	 175      177      9561     10651    d:/Data/middle_cnbeta\255176.htm
+0.011-----
+	 173      179      9262     11766    d:/Data/middle_cnbeta\255177.htm
+	 175      179      9550     11765    d:/Data/middle_cnbeta\255177.htm
+0.011-----
+	 173      177      9214     11144    d:/Data/middle_cnbeta\255178.htm
+	 175      177      9528     11143    d:/Data/middle_cnbeta\255178.htm
+0.011-----
+	 173      177      9292     11095    d:/Data/middle_cnbeta\255179.htm
+	 175      177      9598     11094    d:/Data/middle_cnbeta\255179.htm
+0.011-----
+	 173      177      9287     13429    d:/Data/middle_cnbeta\255180.htm
+	 175      177      9598     13428    d:/Data/middle_cnbeta\255180.htm
+0.011-----
+	 173      177      9283     11972    d:/Data/middle_cnbeta\255181.htm
+	 175      177      9608     11971    d:/Data/middle_cnbeta\255181.htm
+0.011-----
+	 173      185      9257     10824    d:/Data/middle_cnbeta\255182.htm
+	 175      181      9574     10606    d:/Data/middle_cnbeta\255182.htm
+0.032-----
+	 173      177      9266     10635    d:/Data/middle_cnbeta\255183.htm
+	 175      177      9557     10634    d:/Data/middle_cnbeta\255183.htm
+0.011-----
+	 173      177      9335     11840    d:/Data/middle_cnbeta\255184.htm
+	 175      177      9654     11839    d:/Data/middle_cnbeta\255184.htm
+0.011-----
+	 173      177      9252     11207    d:/Data/middle_cnbeta\255185.htm
+	 175      177      9568     11206    d:/Data/middle_cnbeta\255185.htm
+0.011-----
+	 173      177      9283     10644    d:/Data/middle_cnbeta\255186.htm
+	 175      177      9600     10643    d:/Data/middle_cnbeta\255186.htm
+0.011-----
+	 173      177      9323     11284    d:/Data/middle_cnbeta\255187.htm
+	 175      177      9634     11283    d:/Data/middle_cnbeta\255187.htm
+0.011-----
+	 173      177      9269     12121    d:/Data/middle_cnbeta\255188.htm
+	 175      177      9586     12120    d:/Data/middle_cnbeta\255188.htm
+0.011-----
+	 173      177      9290     10802    d:/Data/middle_cnbeta\255189.htm
+	 175      177      9581     10801    d:/Data/middle_cnbeta\255189.htm
+0.011-----
+	 173      177      9296     10506    d:/Data/middle_cnbeta\255190.htm
+	 175      177      9597     10505    d:/Data/middle_cnbeta\255190.htm
+0.011-----
+	 173      177      9255     11411    d:/Data/middle_cnbeta\255191.htm
+	 175      177      9569     11410    d:/Data/middle_cnbeta\255191.htm
+0.011-----
+	 173      177      9304     12997    d:/Data/middle_cnbeta\255192.htm
+	 175      177      9606     12996    d:/Data/middle_cnbeta\255192.htm
+0.011-----
+	 173      177      9282     11553    d:/Data/middle_cnbeta\255193.htm
+	 175      177      9596     11552    d:/Data/middle_cnbeta\255193.htm
+0.011-----
+	 173      177      9264     13309    d:/Data/middle_cnbeta\255194.htm
+	 175      177      9575     13308    d:/Data/middle_cnbeta\255194.htm
+0.011-----
+	 173      177      9216     11813    d:/Data/middle_cnbeta\255195.htm
+	 175      177      9522     11812    d:/Data/middle_cnbeta\255195.htm
+0.011-----
+	 173      177      9287     11586    d:/Data/middle_cnbeta\255196.htm
+	 175      177      9604     11585    d:/Data/middle_cnbeta\255196.htm
+0.011-----
+	 173      177      9277     11107    d:/Data/middle_cnbeta\255197.htm
+	 175      177      9603     11106    d:/Data/middle_cnbeta\255197.htm
+0.011-----
+	 173      177      9270     12785    d:/Data/middle_cnbeta\255198.htm
+	 175      177      9607     12784    d:/Data/middle_cnbeta\255198.htm
+0.011-----
+	 173      179      9274     10565    d:/Data/middle_cnbeta\255199.htm
+	 175      179      9588     10564    d:/Data/middle_cnbeta\255199.htm
+0.011-----
+	 173      179      9303     10714    d:/Data/middle_cnbeta\255200.htm
+	 175      179      9607     10713    d:/Data/middle_cnbeta\255200.htm
+0.011-----
+	 173      178      9275     10865    d:/Data/middle_cnbeta\255201.htm
+	 175      178      9584     10864    d:/Data/middle_cnbeta\255201.htm
+0.011-----
+	 173      178      9258     14933    d:/Data/middle_cnbeta\255202.htm
+	 175      178      9575     14932    d:/Data/middle_cnbeta\255202.htm
+0.011-----
+	 173      177      9302     11206    d:/Data/middle_cnbeta\255203.htm
+	 175      177      9613     11205    d:/Data/middle_cnbeta\255203.htm
+0.011-----
+	 173      177      9273     17823    d:/Data/middle_cnbeta\255204.htm
+	 175      177      9582     17822    d:/Data/middle_cnbeta\255204.htm
+0.011-----
+	 173      177      9321     10327    d:/Data/middle_cnbeta\255205.htm
+	 175      177      9630     10326    d:/Data/middle_cnbeta\255205.htm
+0.011-----
+	 173      177      9285     10708    d:/Data/middle_cnbeta\255206.htm
+	 175      177      9576     10707    d:/Data/middle_cnbeta\255206.htm
+0.011-----
+	 173      177      9283     11227    d:/Data/middle_cnbeta\255207.htm
+	 175      177      9589     11226    d:/Data/middle_cnbeta\255207.htm
+0.011-----
+	 173      177      9236     10936    d:/Data/middle_cnbeta\255208.htm
+	 175      177      9543     10935    d:/Data/middle_cnbeta\255208.htm
+0.011-----
+	 173      177      9271     11253    d:/Data/middle_cnbeta\255209.htm
+	 175      177      9580     11252    d:/Data/middle_cnbeta\255209.htm
+0.011-----
+	 173      177      9238     10604    d:/Data/middle_cnbeta\255210.htm
+	 175      177      9542     10603    d:/Data/middle_cnbeta\255210.htm
+0.011-----
+	 173      177      9284     11904    d:/Data/middle_cnbeta\255211.htm
+	 175      177      9600     11903    d:/Data/middle_cnbeta\255211.htm
+0.011-----
+	 173      177      9321     10584    d:/Data/middle_cnbeta\255212.htm
+	 175      177      9628     10583    d:/Data/middle_cnbeta\255212.htm
+0.011-----
+	 173      177      9259     11138    d:/Data/middle_cnbeta\255213.htm
+	 175      177      9550     11137    d:/Data/middle_cnbeta\255213.htm
+0.011-----
+	 173      177      9272     10869    d:/Data/middle_cnbeta\255214.htm
+	 175      177      9573     10868    d:/Data/middle_cnbeta\255214.htm
+0.011-----
+	 173      177      9278     11497    d:/Data/middle_cnbeta\255215.htm
+	 175      177      9592     11496    d:/Data/middle_cnbeta\255215.htm
+0.011-----
+	 173      177      9265     10713    d:/Data/middle_cnbeta\255216.htm
+	 175      177      9577     10712    d:/Data/middle_cnbeta\255216.htm
+0.011-----
+	 173      177      9248     10996    d:/Data/middle_cnbeta\255217.htm
+	 175      177      9574     10995    d:/Data/middle_cnbeta\255217.htm
+0.011-----
+	 173      177      9300     10341    d:/Data/middle_cnbeta\255218.htm
+	 175      177      9596     10340    d:/Data/middle_cnbeta\255218.htm
+0.011-----
+	 173      179      9297     12120    d:/Data/middle_cnbeta\255219.htm
+	 175      179      9608     12119    d:/Data/middle_cnbeta\255219.htm
+0.011-----
+	 173      177      9295     10947    d:/Data/middle_cnbeta\255220.htm
+	 175      177      9609     10946    d:/Data/middle_cnbeta\255220.htm
+0.011-----
+	 173      177      9205     10556    d:/Data/middle_cnbeta\255221.htm
+	 175      177      9514     10555    d:/Data/middle_cnbeta\255221.htm
+0.011-----
+	 173      177      9236     11259    d:/Data/middle_cnbeta\255222.htm
+	 175      177      9548     11258    d:/Data/middle_cnbeta\255222.htm
+0.011-----
+	 173      180      9294     14861    d:/Data/middle_cnbeta\255223.htm
+	 175      180      9594     14860    d:/Data/middle_cnbeta\255223.htm
+0.011-----
+	 173      179      9292     12263    d:/Data/middle_cnbeta\255224.htm
+	 175      179      9606     12262    d:/Data/middle_cnbeta\255224.htm
+0.011-----
+	 173      180      9278     10989    d:/Data/middle_cnbeta\255225.htm
+	 175      180      9592     10988    d:/Data/middle_cnbeta\255225.htm
+0.011-----
+	 173      177      9300     10776    d:/Data/middle_cnbeta\255226.htm
+	 175      177      9611     10775    d:/Data/middle_cnbeta\255226.htm
+0.011-----
+	 173      180      9302     11203    d:/Data/middle_cnbeta\255227.htm
+	 175      180      9616     11202    d:/Data/middle_cnbeta\255227.htm
+0.011-----
+	 173      177      9299     11640    d:/Data/middle_cnbeta\255228.htm
+	 175      177      9599     11639    d:/Data/middle_cnbeta\255228.htm
+0.011-----
+	 173      177      9273     11361    d:/Data/middle_cnbeta\255229.htm
+	 175      177      9587     11360    d:/Data/middle_cnbeta\255229.htm
+0.011-----
+	 173      177      9222     18303    d:/Data/middle_cnbeta\255230.htm
+	 175      177      9534     18302    d:/Data/middle_cnbeta\255230.htm
+0.011-----
+	 173      178      9294     12227    d:/Data/middle_cnbeta\255231.htm
+	 175      178      9608     12226    d:/Data/middle_cnbeta\255231.htm
+0.011-----
+	 173      177      9296     10876    d:/Data/middle_cnbeta\255232.htm
+	 175      177      9607     10875    d:/Data/middle_cnbeta\255232.htm
+0.011-----
+	 173      177      9312     11528    d:/Data/middle_cnbeta\255233.htm
+	 175      177      9623     11527    d:/Data/middle_cnbeta\255233.htm
+0.011-----
+	 173      177      9345     10933    d:/Data/middle_cnbeta\255234.htm
+	 175      177      9654     10932    d:/Data/middle_cnbeta\255234.htm
+0.011-----
+	 173      202      9271     11976    d:/Data/middle_cnbeta\255235.htm
+	 176      198      9637     11793    d:/Data/middle_cnbeta\255235.htm
+0.035-----
+	 173      177      9275     10784    d:/Data/middle_cnbeta\255236.htm
+	 175      177      9575     10783    d:/Data/middle_cnbeta\255236.htm
+0.011-----
+	 173      177      9278     12339    d:/Data/middle_cnbeta\255237.htm
+	 175      177      9572     12338    d:/Data/middle_cnbeta\255237.htm
+0.011-----
+	 173      177      9296     11184    d:/Data/middle_cnbeta\255238.htm
+	 175      177      9611     11183    d:/Data/middle_cnbeta\255238.htm
+0.011-----
+	 173      177      9284     10861    d:/Data/middle_cnbeta\255239.htm
+	 175      177      9592     10860    d:/Data/middle_cnbeta\255239.htm
+0.011-----
+	 173      200      9312     12260    d:/Data/middle_cnbeta\255240.htm
+	 175      196      9616     11995    d:/Data/middle_cnbeta\255240.htm
+0.030-----
+	 173      178      9289     16585    d:/Data/middle_cnbeta\255241.htm
+	 175      178      9600     16584    d:/Data/middle_cnbeta\255241.htm
+0.011-----
+	 173      177      9271     12565    d:/Data/middle_cnbeta\255242.htm
+	 175      177      9577     12564    d:/Data/middle_cnbeta\255242.htm
+0.011-----
+	 173      177      9302     14363    d:/Data/middle_cnbeta\255243.htm
+	 175      177      9619     14362    d:/Data/middle_cnbeta\255243.htm
+0.011-----
+	 173      177      9313     15684    d:/Data/middle_cnbeta\255244.htm
+	 175      177      9644     15683    d:/Data/middle_cnbeta\255244.htm
+0.011-----
+	 173      185      9298     10887    d:/Data/middle_cnbeta\255245.htm
+	 175      181      9592     10550    d:/Data/middle_cnbeta\255245.htm
+0.032-----
+	 173      177      9319     12707    d:/Data/middle_cnbeta\255246.htm
+	 175      177      9633     12706    d:/Data/middle_cnbeta\255246.htm
+0.011-----
+	 173      191      9315     11345    d:/Data/middle_cnbeta\255247.htm
+	 175      187      9615     10982    d:/Data/middle_cnbeta\255247.htm
+0.031-----
+	 173      177      9303     10715    d:/Data/middle_cnbeta\255248.htm
+	 175      177      9603     10714    d:/Data/middle_cnbeta\255248.htm
+0.011-----
+	 173      177      9287     11603    d:/Data/middle_cnbeta\255249.htm
+	 175      177      9598     11602    d:/Data/middle_cnbeta\255249.htm
+0.011-----
+	 173      177      9294     11413    d:/Data/middle_cnbeta\255250.htm
+	 175      177      9605     11412    d:/Data/middle_cnbeta\255250.htm
+0.011-----
+	 173      194      9295     11395    d:/Data/middle_cnbeta\255251.htm
+	 175      190      9606     11198    d:/Data/middle_cnbeta\255251.htm
+0.031-----
+	 173      177      9329     11303    d:/Data/middle_cnbeta\255252.htm
+	 175      177      9640     11302    d:/Data/middle_cnbeta\255252.htm
+0.011-----
+	 173      177      9285     12498    d:/Data/middle_cnbeta\255253.htm
+	 175      177      9596     12497    d:/Data/middle_cnbeta\255253.htm
+0.011-----
+	 173      177      9264     10693    d:/Data/middle_cnbeta\255254.htm
+	 175      177      9558     10692    d:/Data/middle_cnbeta\255254.htm
+0.011-----
+	 173      177      9338     10724    d:/Data/middle_cnbeta\255255.htm
+	 175      177      9650     10723    d:/Data/middle_cnbeta\255255.htm
+0.011-----
+	 173      177      9288     11603    d:/Data/middle_cnbeta\255256.htm
+	 175      177      9588     11602    d:/Data/middle_cnbeta\255256.htm
+0.011-----
+	 173      177      9314     11070    d:/Data/middle_cnbeta\255257.htm
+	 175      177      9618     11069    d:/Data/middle_cnbeta\255257.htm
+0.011-----
+	 173      177      9309     11342    d:/Data/middle_cnbeta\255258.htm
+	 175      177      9627     11341    d:/Data/middle_cnbeta\255258.htm
+0.011-----
+	 173      177      9339     12102    d:/Data/middle_cnbeta\255259.htm
+	 175      177      9650     12101    d:/Data/middle_cnbeta\255259.htm
+0.011-----
+	 173      177      9226     11168    d:/Data/middle_cnbeta\255260.htm
+	 175      177      9534     11167    d:/Data/middle_cnbeta\255260.htm
+0.011-----
+	 173      180      9304     21565    d:/Data/middle_cnbeta\255261.htm
+	 175      180      9644     21564    d:/Data/middle_cnbeta\255261.htm
+0.011-----
+	 173      177      9286     11243    d:/Data/middle_cnbeta\255262.htm
+	 175      177      9601     11242    d:/Data/middle_cnbeta\255262.htm
+0.011-----
+	 173      177      9316     11109    d:/Data/middle_cnbeta\255263.htm
+	 175      177      9625     11108    d:/Data/middle_cnbeta\255263.htm
+0.011-----
+	 173      178      9247     11128    d:/Data/middle_cnbeta\255264.htm
+	 175      178      9575     11127    d:/Data/middle_cnbeta\255264.htm
+0.011-----
+	 173      177      9269     10538    d:/Data/middle_cnbeta\255265.htm
+	 175      177      9568     10537    d:/Data/middle_cnbeta\255265.htm
+0.011-----
+	 173      177      9278     11109    d:/Data/middle_cnbeta\255266.htm
+	 175      177      9578     11108    d:/Data/middle_cnbeta\255266.htm
+0.011-----
+	 173      177      9240     11230    d:/Data/middle_cnbeta\255267.htm
+	 175      177      9552     11229    d:/Data/middle_cnbeta\255267.htm
+0.011-----
+	 173      177      9264     10598    d:/Data/middle_cnbeta\255268.htm
+	 175      177      9575     10597    d:/Data/middle_cnbeta\255268.htm
+0.011-----
+	 173      180      9283     10848    d:/Data/middle_cnbeta\255269.htm
+	 175      180      9582     10847    d:/Data/middle_cnbeta\255269.htm
+0.011-----
+	 173      178      9277     11347    d:/Data/middle_cnbeta\255270.htm
+	 175      178      9589     11346    d:/Data/middle_cnbeta\255270.htm
+0.011-----
+	 173      177      9286     12399    d:/Data/middle_cnbeta\255271.htm
+	 175      177      9603     12398    d:/Data/middle_cnbeta\255271.htm
+0.011-----
+	 173      177      9240     11818    d:/Data/middle_cnbeta\255272.htm
+	 175      177      9548     11817    d:/Data/middle_cnbeta\255272.htm
+0.011-----
+	 173      177      9193     10330    d:/Data/middle_cnbeta\255273.htm
+	 175      177      9502     10329    d:/Data/middle_cnbeta\255273.htm
+0.011-----
+total mean score is 0.013

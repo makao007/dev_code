@@ -10,6 +10,10 @@ def find_content_position_known (content,start_partern, end_partern):
     if not content:
         return None,None,None,None
     content = remove_empty_line(remove_js_css(content))
+
+    if content.count(start_partern) == 0 or content.count(end_partern)==0:
+        print 'not match partern'
+        return None,None,None,None
     
     start_index = content.index(start_partern)
     end_index   = content.index(end_partern)
