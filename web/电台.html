@@ -1,0 +1,62 @@
+
+<!-- saved from url=(0056)http://1.tingxinwen.duapp.com/templates/radio/audio.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css" media="screen">
+    #main {margin:0 auto; font-size:13px; width:300px;}
+    #main ul ,#main li {margin:0px; padding:0px; list-style: none;}
+    #list {line-height:24px; margin-top:8px;}
+    #list li {padding-left: 10px;}
+    #list li:hover {background-color:#EEB422;}
+    .current {background-color:#FFBBFF;}
+</style>
+
+</head><body><div id="main">
+    <div id="title">正在播放:香港电台1</div>
+    <audio id="audio" controls="controls" src="http://202.177.192.119/radio1"> Your browser does not support the audio tag. </audio>
+    <div id="list"><li class="current">香港电台1</li><li class="">香港电台2</li><li class="">香港电台3</li><li class="">香港电台4</li><li class="">香港电台5</li><li class="">香港电台31</li><li class="">香港电台33 [English]</li><li class="">香港电台35</li><li class="">香港电台pth</li></div>
+    <a href="http://1.tingxinwen.duapp.com/templates/radio/radio1.html">Mobile</a>
+</div>
+
+
+<script type="text/javascript" charset="utf-8">
+    var data = [
+        ['香港电台1','http://202.177.192.119/radio1'],
+        ['香港电台2','http://202.177.192.119/radio2'],
+        ['香港电台3','http://202.177.192.119/radio3'],
+        ['香港电台4','http://202.177.192.119/radio4'],
+        ['香港电台5','http://202.177.192.119/radio5'],
+        ['香港电台31','http://202.177.192.119/radio31'],
+        ['香港电台33 [English]','http://202.177.192.119/radio33'],
+        ['香港电台35','http://202.177.192.119/radio35'],
+        ['香港电台pth','http://202.177.192.119/radiopth'],
+    ];
+    function show_audio () {
+        var tmp = document.getElementById('list');
+        function play_audio (url) {
+            var audio = document.getElementById('audio');
+            audio.src = url;
+            audio.play();
+        }
+        function update_show_list (n) {
+            var lis = tmp.getElementsByTagName('li');
+            for (var i=0; i<data.length; i++) {
+                    lis[i].className = "";
+            }
+            lis[n].className = "current";
+        }
+        for (var i=0; i<data.length; i++) {
+            var li = document.createElement("li");
+            li.innerHTML = data[i][0];
+            li.i = i
+            li.onclick = function () {
+                document.getElementById('title').innerHTML = '正在播放:' + data[this.i][0];
+                play_audio(data[this.i][1]);
+                update_show_list (this.i);
+            };
+            tmp.appendChild (li);
+        }
+    }
+
+    document.onLoad = show_audio();
+</script>
+
+</body></html>

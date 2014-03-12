@@ -46,7 +46,6 @@ def find_match(urls,param):
             for i in temp:
                 next_url = urllib.unquote(urlparse.urljoin(url,i))
                 result.extend(find_match ([next_url],param))
-
     return result
 
 
@@ -95,7 +94,6 @@ def make_url(template_url):
 
 
 def start_download (urls,rules,tag, debug_mode=False):
-
     if not rules:
         for url in urls:
             if debug_mode:
@@ -103,7 +101,8 @@ def start_download (urls,rules,tag, debug_mode=False):
             download_to_local ([url],tag)
     else:
         for url in urls:
+            print url
             urlset = find_match ([url],rules[0])
             start_download (urlset, rules[1:], tag)
-
+ 
 

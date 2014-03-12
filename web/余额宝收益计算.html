@@ -1,0 +1,110 @@
+
+<!-- saved from url=(0051)http://1.tingxinwen.duapp.com/templates/yuebao.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>余额宝收益计算</title>
+    <style type="text/css" media="screen">
+        table {border-collapse:collapse;}
+        td{ border:1px solid #999999}
+        .left {float:left; }
+        ul.left li {list-style:none;}
+        ul.left li:hover {background-color:#ff3;}
+    </style>
+<script type="text/javascript" charset="utf-8">
+
+    function removeDiv(name){
+        var test = document.getElementById(name);
+        while (test.firstChild) {
+            test.removeChild(test.firstChild);
+        }
+        return false;
+    }
+
+    function updateNianHua () {
+        var form = document.forms[0];
+        var x1 = parseFloat(form.meitian.value);
+        var text = x1 * 365 / 10000 * 100;
+        text = text.toFixed(2) + "%";
+        form.nianhua.value=text;
+    }
+       
+
+    function cal () {
+        updateNianHua();
+        removeDiv ("shouyi");
+        var form = document.forms[0];
+        var x1 = parseFloat(form.meitian.value);
+        var x2 = parseFloat(form.benjin.value);
+        var x3 = parseFloat(form.meiyue.value);
+        var x4 = parseFloat(form.duoxiaonian.value);
+        var result = document.getElementById('shouyi');
+
+        var fuli = false;
+        var money ;
+        var benjin ;
+        var year = 0.0;
+        for (var i=1;i<=x4*12;i++) {
+            benjin = x2 + i * x3;
+            if (! fuli) {
+                money = x2 / 10000 * x1 * 30;
+                money += x3 * (i-1) / 10000 * x1 * 30;
+            }
+            year += money;
+            
+
+            var tmp=document.createElement("li");
+            var ul;
+            if (i%12==1) {
+                var t1 = i / 12 + 1;
+                ul = document.createElement("ul");
+                ul.className = "left";
+                ul.innerHTML = "第" + t1.toFixed() + "年";
+                result.appendChild (ul);
+            }
+            var t1 = i % 12 ;
+            if (t1==0){
+                t1 = "12";
+            }
+            if (t1 < 10){
+                t1 = '&nbsp;' + t1;
+            }
+            tmp.innerHTML = t1 + '月后' + money.toFixed(2);
+            tmp.title = "本金 " + benjin;
+            ul.appendChild (tmp);
+
+            if (t1=="12"){
+                var tmp2 = document.createElement("li");
+                tmp2.innerHTML = "当年利息:" + year.toFixed(2) ;
+                tmp2.title = "当年利息占当前本金:" + (year/benjin*100).toFixed(2) + "%";
+                year = 0.0;
+                ul.appendChild (tmp2);
+            }
+
+        }
+        return false;
+    }
+</script></head>
+
+<body>
+    <p><a href="http://1.tingxinwen.duapp.com/">首页</a></p>
+    
+    <p>余额宝收益计算 (定存每月取息,存款单位:RMB元)</p>
+    <form action="" method="get" accept-charset="utf-8" onsubmit="return cal();">
+        <table border="1">
+            <tbody><tr><th>预计收益(元)(每万元每天)</th><td><input type="text" name="meitian" value="1.2" onchange="updateNianHua();"></td></tr>
+            <tr><th>预计收益(年化收益)</th><td><input type="text" name="nianhua" value="4.38%" disabled="disable"></td></tr>
+            <tr><th>本金</th><td><input type="text" name="benjin" value="20000"></td></tr>
+            <tr><th>每月定投</th><td><input type="text" name="meiyue" value="2000"></td></tr>
+            <tr><th>往后多少年</th><td><input type="text" name="duoxiaonian" value="5"></td></tr>
+            <tr><td colspan="2">
+                <center><input type="reset" value="清空|重置" onclick="removeDiv(&#39;shouyi&#39;);">&nbsp;&nbsp;
+                    <input type="submit" value="计算"></center>
+                </td></tr>
+        </tbody></table>
+    </form>
+
+    <hr>
+    <div id="shouyi"></div>
+
+
+</body></html>

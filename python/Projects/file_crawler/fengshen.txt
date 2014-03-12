@@ -1,0 +1,16 @@
+#coding=utf-8
+
+
+r0=r'''\d+\.<a href=["'](/play_\d+.html)["'] target=['"]_blank['"]>'''
+r0=r'''<a href=(/down_\d+.html)  target="_blank">'''
+
+
+
+r1=r'''<a href=“([^”]+?.mp3)”>'''
+
+r2=r'''encodeURI\("(.+?)"\)'''
+
+r3 = r'''<a href="(http://download.pingshu8.com:8000/1/ps/[^"]+)"><img'''
+keys=[
+      ['http://www.pingshu8.com/MusicList/mmc_33_168_{{1-20}}.htm','fengshen',[r0,r3]],
+]

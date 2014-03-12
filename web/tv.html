@@ -1,0 +1,898 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>农历日期显示</title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1265">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; min-height: 14.0px}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Songti SC'}
+    span.s1 {text-decoration: underline ; color: #0000ee}
+    span.s2 {font: 12.0px Times}
+    span.s3 {font: 12.0px 'Songti SC'}
+    td.td1 {margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td2 {width: 759.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+  </style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;html&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;head&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;meta http-equiv="content-type" content="text/html; charset=utf-8"&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;title&gt;TV&lt;/title&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;style type="text/css" media="screen"&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">body {width:960px; margin:0 auto;}</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">embed,object {width: 600px; height:467px;}</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">div#video {width:600px; height:500px; float:left; margin-top:20px; }</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">ul#list {width:300px; height:500px; float:left; overflow-y: auto;}</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">ul,li {list-style:none;}</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">ul {padding: 0px 20px;}</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">ul li { padding:5px 6px; font-size:14px;}</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">ul li:hover {background-color:#FF8247; color:white; cursor:pointer;}</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">.current{background-color:#FF8247; color:white; cursor:pointer;}</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/style&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/head&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;body&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;div id="video"&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;embed type="application/x-shockwave-flash" src="<a href="http://1.tingxinwen.duapp.com/templates/tv/player.swf"><span class="s1">player.swf</span></a>" allowscriptaccess="always" allowfullscreen="true" &gt;&lt;/div&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;div &gt;&lt;ul id="list"&gt;&lt;/ul&gt;&lt;/div&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3"><span class="s2">&lt;div style="clear:both;font-size:13px;"&gt; </span>提示：本站直播信号源来自官方和各网络直播平台，我们自身不提供任何直播信号和视频内容，如有侵犯您的权益请通知我们，我们会第一时间处理，谢谢！<span class="s2">&lt;/div&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;br/&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/body&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/html&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;script type="text/javascript" charset="utf-8"&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">var videos = [</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">['<span class="s3">香港卫视</span>HKS', 'rtmp://live.hkstv.hk.lxdns.com/live/hks'],</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">['<span class="s3">美亚电影</span>', 'rtmp://202.1.2.18/live/2ch27000.stream'],</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">['TVNHD', 'rtmp://202.1.2.18/live/2ch26000.stream'],</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">['MNC', 'rtmp://202.1.2.18/live/2ch28000.stream'],</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">['<span class="s3">互动新闻</span>', 'rtmp://202.1.2.18/live/3ch26000.stream'],</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">['<span class="s3">卫视中文台</span>','rtmp://202.1.2.18/live/2ch29000.stream'],</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">['UONE', 'rtmp://202.1.2.18/live/3ch29000.stream'],</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">['<span class="s3">国家地理野生</span>', 'rtmp://202.1.2.18/live/3ch28000.stream'],</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">['CN<span class="s3">卡通</span>', 'rtmp://202.1.2.18/live/3ch27000.stream'],</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">['<span class="s3">亚洲联合卫视</span>','http://tv.unbtv.tv/app_2/ls_1.stream/playlist.m3u8'],</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">];</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">function format (template, s) {</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">var r = "%s";</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">s.reverse();</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">while (template.indexOf(r)!=-1) {</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">template = template.replace (r,s.pop(),1);</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">}</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">if (s.length!=0) {</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">console.log('error, the template not match ');</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">return ;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">}</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">return template;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">}</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">function watch (url, divId) {</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">if (url.indexOf('#') != -1) {</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">url = url.slice(0,url.indexOf('#'));</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">}</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">var url2 = url.toLowerCase();</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">var s = '&lt;embed width="400" height="400" type="application/x-shockwave-flash" src="http://static.haotv.me/js/live/jwp/jwplayer.swf" flashvars="file=%s allowscriptaccess="always" allowfullscreen="true"&gt;';</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">if (url2.indexOf('rtmp://')!=-1){</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">var a = url.slice(0,url.lastIndexOf('/')); //host path</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">var b = url.slice(url.lastIndexOf('/')+1); //filename</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">var t = b + '&amp;amp;streamer=' + a + '&amp;amp;autostart=true&amp;amp;type=rtmp"';</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">s = format (s, [t]);</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">} else if (url2.indexOf('rtsp://')!=-1) {</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">s = '&lt;embed width="400" height="400" type="application/x-google-vlc-plugin" version="VideoLAN.VLCPlugin.2" autoplay="yes" loop="no" target="' + url + '" rtsp-caching="10"&gt;&lt;/embed&gt;';</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">} else if (url2.indexOf('http://')!= -1) {</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">if (url2.indexOf('.flv') != -1 ) {</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">s = format (s, [url + '&amp;amp;autostart=true"']);</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">} else if (url2.indexOf('m3u8')) {</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">s = format (s, [url + '&amp;provider=http://static.haotv.me/js/live/jwp/adaptiveProvider.swf&amp;amp;autostart=true" ']);</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">}</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">}</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">document.getElementById(divId).innerHTML = s;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">return false;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">}</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">var tmp = document.getElementById('list');</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">for (var i=0; i&lt;videos.length; i++) {</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">var li = document.createElement("li");</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">li.innerHTML = videos[i][0];</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">li.i = i;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">li.onclick = function () {load_video(this.i) };</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">tmp.appendChild (li);</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">}</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">function load_video (id){</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">watch (videos[id][1], "video");</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">var lis = document.getElementsByTagName('li');</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">for (var i=0; i&lt;videos.length; i++) {</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">if (i==id){</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">lis[i].className = "current";</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">} else {</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">lis[i].className = "";</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">}</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">}</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">}</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/script&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
