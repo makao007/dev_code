@@ -1,0 +1,671 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<!-- saved from url=(0019)http://rashost.com/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" class="js"><head profile="http://www.w3.org/1999/xhtml/vocab"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<HTML dir=ltr version="XHTML+RDFa 1.0" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<HEAD profile="http://www.w3.org/1999/xhtml/vocab">
+<TITLE>二师兄VPN 免费的VPN 免费VPN free vpn</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<META name=keywords content="二师兄VPN,免费的VPN，免费VPN">
+<META name=description content="">
+
+<LINK rel=stylesheet type=text/css href="http://23.238.226.83/static/css/css_Z.css" media=all>
+<LINK rel=stylesheet type=text/css href="http://23.238.226.83/static/css/css_D.css" media=all>
+<LINK rel=stylesheet type=text/css href="http://23.238.226.83/static/css/css_M.css" media=all>
+<LINK rel=stylesheet type=text/css href="http://23.238.226.83/static/css/css_F.css" media=all>
+<LINK rel=stylesheet type=text/css href="http://23.238.226.83/static/css/css_2.css" media=print>
+
+<SCRIPT type=text/javascript src="http://23.238.226.83/static/js/js_3.js"></SCRIPT>
+<SCRIPT type=text/javascript src="http://23.238.226.83/static/js/js_L.js"></SCRIPT>
+<SCRIPT type=text/javascript src="http://23.238.226.83/static/js/js_I.js"></SCRIPT>
+</head>
+
+<BODY class="html front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-380 node-type--frontpagearticle featured triptych footer-columns">
+
+<DIV id=page-wrapper>
+<DIV id=page>
+
+<DIV id=header class=without-secondary-menu>
+<DIV class="section clearfix">
+<A id=logo title=Home href="home.action" rel=home><IMG alt=Home src="http://23.238.226.83/static/images/logo.png"> </A>
+<DIV id=name-and-slogan>
+<DIV id=site-name>
+<STRONG><A title=Home href="home.action" rel=home><SPAN>二师兄VPN加速器</SPAN></A></STRONG>
+</DIV>
+<DIV id=site-slogan>
+专业提供美国VPN, 香港VPN以及相关技术支持服务!
+</DIV>
+</DIV>
+
+
+<DIV id=main-menu class=navigation>
+
+	<div id="topbar">
+				<div style="top: 120px;right: 50px;width: 50px;height: 20px;position: absolute;text-align: center;"><a href="lr!lot.action"><SPAN>退出</SPAN></a></div>
+		<div style="top: 120px;right: 110px;width: 200px;height: 20px;position: absolute;text-align: center;"><a href="my.action"><SPAN>欢迎您： makao007</SPAN></a></div>
+			</div>
+
+	<UL id=main-menu-links class="links clearfix">
+		<LI class="menu-266 first"><A title=首页 href="home.action">首页</A></LI>
+		<LI class=menu-267><A title=我的账号 href="my.action">我的账号</A></LI>
+		<LI class=menu-277><A title=订购服务 href="my!ssp.action">订购服务</A></LI>
+		<LI class=menu-277><A title=线路列表 href="home!sl.action">线路列表</A></LI>
+		<LI class=menu-295><A title=使用教程 href="home!ht.action">使用教程</A></LI>
+		<LI class=menu-128><A title=推广合作 href="my!bz.action">推广合作</A></LI>
+		<LI class=menu-128><A title=客户端下载 href="http://23.238.226.83/static/other/Client2013.rar">客户端下载</A></LI>
+		<LI class=menu-129><A title=联系我们 href="jy.action">联系我们</A></LI>
+		<LI class=menu-129><A title=官方博客 href="http://www.2-vpn.info/" target="_blank">官方博客</A></LI>
+	</UL>
+</DIV>
+
+</DIV>
+</DIV>
+
+<DIV id=featured>
+<DIV class="section clearfix">
+<DIV class="region region-featured">
+<DIV id=block-block-9 class="block block-block">
+<DIV class=content>
+<P>美国VPN热销中... 超快速度,不限时间,不限流量, 月付只需20元.
+<A title=查看更多套餐信息 href="my!ssp.action">查看更多 ...</A>
+</P>
+</DIV></DIV></DIV></DIV></DIV>
+
+
+<DIV id=main-wrapper class=clearfix>
+<DIV id=main class=clearfix>
+<DIV id=content class=column>
+<DIV class=section>
+<A id=main-content></A>
+①VIP用户可使用所有线路，免费用户只能使用免费线路。【标记<font color="RED">禁止下载</font>线路均禁止下载，否则立刻封号且不退款】。<br>
+②<font color="RED">免费线路繁忙，速度比VIP线路慢，升级为VIP用户可获得更快速稳定的服务。</font><br>
+③所有套餐不限流量，支持所有平台上使用，同时支持PPTP和L2TP（L2TP密钥<font color="RED">vpn69.com</font>）。<br>
+④目前线路被不可抗力的因素干扰，若PPTP无法使用，请换L2TP。
+
+<div class="gonggao" style="width:540px; ">
+	<h2>免费线路</h2>
+	<style>
+.dd th{
+	font: bold 14px/16px "微软雅黑";
+	color: #999;
+	background-color: #F5F5F5;
+	height:30px;
+}
+
+.dd td{
+	font: bold 12px/14px "微软雅黑";
+	height:20px;
+	padding: 5px;
+}
+</style>
+	<table class="dd" style="margin:10px; width:96%; text-align:center;">
+		<tr>
+			<th style="width:20%;">线路</th>
+			<th style="width:30%;">说明</th>
+			<th style="width:35%;">ip地址</th>
+			<th style="width:15%;">在线人数</th>
+		</tr>
+					<tr>
+				<td>美国免费1</td>
+				<td>美国CC机房100Mbps  （PPTP/L2TP，严禁下载）</td>
+				<td>107.160.184.40</td>
+				<td><font color="#999900">488</font></td>
+			</tr>
+					<tr>
+				<td>美国免费2</td>
+				<td>美国CC机房100Mbps  （PPTP/L2TP，严禁下载）</td>
+				<td>107.160.184.43</td>
+				<td><font color="#999900">275</font></td>
+			</tr>
+			</table></div>
+
+
+<div class="gonggao" style="width:540px; ">
+	<h2>VIP线路</h2>
+	<style>
+.dd th{
+	font: bold 14px/16px "微软雅黑";
+	color: #999;
+	background-color: #F5F5F5;
+	height:30px;
+}
+
+.dd td{
+	font: bold 12px/14px "微软雅黑";
+	height:20px;
+	padding: 5px;
+}
+</style>
+	<table class="dd" style="margin:10px; width:96%; text-align:center;">
+		<tr>
+			<th style="width:20%;">线路</th>
+			<th style="width:30%;">说明</th>
+			<th style="width:35%;">ip地址</th>
+			<th style="width:15%;">在线人数</th>
+		</tr>
+
+
+												<tr>
+						<td>日本付费1</td>
+						<td>日本东京机房1Gbps（PPTP\L2TP，严禁下载）</td>
+						<td>106.185.52.202</td>
+						<td><font color="GREEN">2833</font></td>
+					</tr>
+									<tr>
+						<td>日本付费2</td>
+						<td>日本东京机房1Gbps（PPTP\L2TP，严禁下载）</td>
+						<td>106.185.39.137</td>
+						<td><font color="GREEN">7897</font></td>
+					</tr>
+									<tr>
+						<td>日本付费3</td>
+						<td>日本东京机房1Gbps（PPTP\L2TP，严禁下载）</td>
+						<td>106.185.55.197</td>
+						<td><font color="GREEN">2333</font></td>
+					</tr>
+									<tr>
+						<td>美国付费01</td>
+						<td>美国EC独立服务器（游戏专线100M带宽，严禁下载）</td>
+						<td>23.228.250.241</td>
+						<td><font color="GREEN">52</font></td>
+					</tr>
+									<tr>
+						<td>美国付费02</td>
+						<td>美国EC独立服务器（游戏专线100M带宽，严禁下载）</td>
+						<td>23.228.250.242</td>
+						<td><font color="GREEN">61</font></td>
+					</tr>
+									<tr>
+						<td>美国付费03</td>
+						<td>美国EC独立服务器（游戏专线100M带宽，严禁下载）</td>
+						<td>23.228.228.45</td>
+						<td><font color="GREEN">40</font></td>
+					</tr>
+									<tr>
+						<td>美国付费04</td>
+						<td>美国PN独立服务器（视频专线，严禁下载）</td>
+						<td>23.228.228.203</td>
+						<td><font color="GREEN">30</font></td>
+					</tr>
+									<tr>
+						<td>美国付费05</td>
+						<td>美国EC独立服务器（游戏专线100M带宽，严禁下载）</td>
+						<td>23.238.235.140</td>
+						<td><font color="GREEN">21</font></td>
+					</tr>
+									<tr>
+						<td>美国付费07</td>
+						<td>美国PN独立服务器（视频专线，严禁下载）</td>
+						<td>23.228.228.217</td>
+						<td><font color="GREEN">15</font></td>
+					</tr>
+									<tr>
+						<td>美国付费08</td>
+						<td>美国PN独立服务器（视频专线，严禁下载）</td>
+						<td>23.228.228.237</td>
+						<td><font color="GREEN">15</font></td>
+					</tr>
+									<tr>
+						<td>美国付费09</td>
+						<td>美国KT独立服务器（视频专线，严禁下载）</td>
+						<td>23.228.250.239</td>
+						<td><font color="GREEN">37</font></td>
+					</tr>
+									<tr>
+						<td>美国付费10</td>
+						<td>美国KT独立服务器（视频专线，严禁下载）</td>
+						<td>23.228.250.238</td>
+						<td><font color="GREEN">27</font></td>
+					</tr>
+									<tr>
+						<td>美国付费11</td>
+						<td>美国KT独立服务器（视频专线，严禁下载）</td>
+						<td>23.228.250.161</td>
+						<td><font color="GREEN">18</font></td>
+					</tr>
+									<tr>
+						<td>美国付费12</td>
+						<td>美国KT独立服务器（视频专线，严禁下载）</td>
+						<td>23.228.250.240</td>
+						<td><font color="GREEN">18</font></td>
+					</tr>
+									<tr>
+						<td>美国付费13</td>
+						<td>美国KT独立服务器（视频专线，严禁下载）</td>
+						<td>107.160.73.91</td>
+						<td><font color="GREEN">8</font></td>
+					</tr>
+									<tr>
+						<td>美国付费14</td>
+						<td>美国PN独立服务器（视频专线，严禁下载）</td>
+						<td>23.228.228.213</td>
+						<td><font color="GREEN">4</font></td>
+					</tr>
+									<tr>
+						<td>美国付费15</td>
+						<td>美国PN独立服务器（视频专线，严禁下载）</td>
+						<td>23.228.228.132</td>
+						<td><font color="GREEN">171</font></td>
+					</tr>
+									<tr>
+						<td>美国付费16</td>
+						<td>美国PN独立服务器（视频专线，严禁下载）</td>
+						<td>23.228.228.185</td>
+						<td><font color="GREEN">7</font></td>
+					</tr>
+									<tr>
+						<td>美国付费17</td>
+						<td>美国EC独立服务器（视频专线，严禁下载）</td>
+						<td>23.228.209.31</td>
+						<td><font color="GREEN">8</font></td>
+					</tr>
+									<tr>
+						<td>美国付费18</td>
+						<td>美国EC独立服务器（视频专线，严禁下载）</td>
+						<td>23.91.25.13</td>
+						<td><font color="GREEN">2</font></td>
+					</tr>
+									<tr>
+						<td>美国付费19</td>
+						<td>美国EC独立服务器（视频专线，严禁下载）</td>
+						<td>23.238.226.159</td>
+						<td><font color="GREEN">11</font></td>
+					</tr>
+									<tr>
+						<td>美国付费20</td>
+						<td>美国EC独立服务器（视频专线，严禁下载）</td>
+						<td>23.91.25.208</td>
+						<td><font color="GREEN">1</font></td>
+					</tr>
+									<tr>
+						<td>美国付费21</td>
+						<td>美国EC独立服务器（视频专线，严禁下载）</td>
+						<td>23.228.235.9</td>
+						<td><font color="GREEN">5</font></td>
+					</tr>
+									<tr>
+						<td>美国付费22</td>
+						<td>美国EC独立服务器（游戏专线100M带宽，严禁下载）</td>
+						<td>23.238.235.94</td>
+						<td><font color="GREEN">6</font></td>
+					</tr>
+									<tr>
+						<td>美国付费23</td>
+						<td>美国EC独立服务器（游戏专线100M带宽，严禁下载）</td>
+						<td>107.160.73.78</td>
+						<td><font color="GREEN">21</font></td>
+					</tr>
+									<tr>
+						<td>美国付费24</td>
+						<td>美国EC独立服务器（游戏专线100M带宽，严禁下载）</td>
+						<td>107.160.73.111</td>
+						<td><font color="GREEN">11</font></td>
+					</tr>
+									<tr>
+						<td>美国付费25</td>
+						<td>美国EC独立服务器（游戏专线100M带宽，严禁下载）</td>
+						<td>23.228.228.66</td>
+						<td><font color="GREEN">9</font></td>
+					</tr>
+									<tr>
+						<td>美国付费26</td>
+						<td>美国EC独立服务器（游戏专线100M带宽，严禁下载）</td>
+						<td>107.160.73.87</td>
+						<td><font color="GREEN">6</font></td>
+					</tr>
+									<tr>
+						<td>美国付费27</td>
+						<td>美国EC独立服务器（游戏专线100M带宽，严禁下载）</td>
+						<td>198.176.48.177</td>
+						<td><font color="GREEN">1</font></td>
+					</tr>
+									<tr>
+						<td>美国付费28</td>
+						<td>美国EC独立服务器（游戏专线100M带宽，严禁下载）</td>
+						<td>198.176.48.178</td>
+						<td><font color="GREEN">3</font></td>
+					</tr>
+									<tr>
+						<td>美国付费29</td>
+						<td>美国EC独立服务器（游戏专线100M带宽，严禁下载）</td>
+						<td>198.176.48.179</td>
+						<td><font color="GREEN">3</font></td>
+					</tr>
+									<tr>
+						<td>美国付费30</td>
+						<td>美国EC独立服务器（游戏专线100M带宽，严禁下载）</td>
+						<td>198.176.48.18</td>
+						<td><font color="GREEN">4</font></td>
+					</tr>
+									<tr>
+						<td>美国付费31</td>
+						<td>美国EC独立服务器（游戏专线100M带宽，严禁下载）</td>
+						<td>104.143.36.157</td>
+						<td><font color="GREEN">1</font></td>
+					</tr>
+									<tr>
+						<td>美国付费32</td>
+						<td>美国EC独立服务器（游戏专线100M带宽，严禁下载）</td>
+						<td>104.143.36.172</td>
+						<td><font color="GREEN">1</font></td>
+					</tr>
+									<tr>
+						<td>美国付费33</td>
+						<td>美国EC独立服务器（游戏专线100M带宽，严禁下载）</td>
+						<td>198.176.48.183</td>
+						<td><font color="GREEN">0</font></td>
+					</tr>
+									<tr>
+						<td>美国付费34</td>
+						<td>美国EC独立服务器（游戏专线100M带宽，严禁下载）</td>
+						<td>198.176.48.184</td>
+						<td><font color="GREEN">2</font></td>
+					</tr>
+									<tr>
+						<td>美国付费35</td>
+						<td>美国EC独立服务器（游戏专线100M带宽，严禁下载）</td>
+						<td>198.176.48.185</td>
+						<td><font color="GREEN">1</font></td>
+					</tr>
+									<tr>
+						<td>美国付费36</td>
+						<td>美国EC独立服务器（游戏专线100M带宽，严禁下载）</td>
+						<td>104.143.36.173</td>
+						<td><font color="GREEN">3</font></td>
+					</tr>
+									<tr>
+						<td>美国付费37</td>
+						<td>美国PN独立服务器（视频专线，严禁下载）</td>
+						<td>23.228.235.246</td>
+						<td><font color="GREEN">6</font></td>
+					</tr>
+									<tr>
+						<td>美国付费38</td>
+						<td>美国PN独立服务器（视频专线，严禁下载）</td>
+						<td>23.228.235.242</td>
+						<td><font color="GREEN">8</font></td>
+					</tr>
+									<tr>
+						<td>美国付费39</td>
+						<td>美国PN独立服务器（视频专线，严禁下载）</td>
+						<td>23.228.250.8</td>
+						<td><font color="GREEN">16</font></td>
+					</tr>
+									<tr>
+						<td>美国付费40</td>
+						<td>美国PN独立服务器（视频专线，严禁下载）</td>
+						<td>23.228.235.222</td>
+						<td><font color="GREEN">27</font></td>
+					</tr>
+									<tr>
+						<td>美国付费41</td>
+						<td>美国PN独立服务器（视频专线，严禁下载）</td>
+						<td>23.228.235.141</td>
+						<td><font color="GREEN">1</font></td>
+					</tr>
+									<tr>
+						<td>美国付费42</td>
+						<td>美国PN独立服务器（视频专线，严禁下载）</td>
+						<td>23.228.250.149</td>
+						<td><font color="GREEN">4</font></td>
+					</tr>
+									<tr>
+						<td>美国付费43</td>
+						<td>美国PN独立服务器（视频专线，严禁下载）</td>
+						<td>23.228.250.147</td>
+						<td><font color="GREEN">7</font></td>
+					</tr>
+									<tr>
+						<td>美国付费44</td>
+						<td>美国PN独立服务器（视频专线，严禁下载）</td>
+						<td>23.228.250.123</td>
+						<td><font color="GREEN">18</font></td>
+					</tr>
+									<tr>
+						<td>美国付费45</td>
+						<td>美国PN独立服务器（视频专线，严禁下载）</td>
+						<td>23.228.250.87</td>
+						<td><font color="GREEN">6</font></td>
+					</tr>
+									<tr>
+						<td>美国付费46</td>
+						<td>美国PN独立服务器（视频专线，严禁下载）</td>
+						<td>23.228.250.17</td>
+						<td><font color="GREEN">14</font></td>
+					</tr>
+									<tr>
+						<td>美国付费47</td>
+						<td>美国EC独立服务器（视频专线100M带宽，严禁下载）</td>
+						<td>198.176.48.186</td>
+						<td><font color="GREEN">3</font></td>
+					</tr>
+									<tr>
+						<td>美国付费48</td>
+						<td>美国EC独立服务器（视频专线100M带宽，严禁下载）</td>
+						<td>198.176.48.187</td>
+						<td><font color="GREEN">1</font></td>
+					</tr>
+									<tr>
+						<td>美国付费49</td>
+						<td>美国EC独立服务器（视频专线100M带宽，严禁下载）</td>
+						<td>198.176.48.189</td>
+						<td><font color="GREEN">1</font></td>
+					</tr>
+									<tr>
+						<td>美国付费50</td>
+						<td>美国EC独立服务器（视频专线100M带宽，严禁下载）</td>
+						<td>104.143.36.101</td>
+						<td><font color="GREEN">0</font></td>
+					</tr>
+									<tr>
+						<td>美国付费51</td>
+						<td>美国EC独立服务器（视频专线100M带宽，严禁下载）</td>
+						<td>104.143.36.129</td>
+						<td><font color="GREEN">0</font></td>
+					</tr>
+									<tr>
+						<td>美国付费52</td>
+						<td>美国EC独立服务器（视频专线100M带宽，严禁下载）</td>
+						<td>198.176.48.190</td>
+						<td><font color="GREEN">1</font></td>
+					</tr>
+									<tr>
+						<td>美国付费53</td>
+						<td>美国EC独立服务器（视频专线100M带宽，严禁下载）</td>
+						<td>104.143.36.180</td>
+						<td><font color="GREEN">3</font></td>
+					</tr>
+									<tr>
+						<td>美国付费54</td>
+						<td>美国EC独立服务器（视频专线100M带宽，严禁下载）</td>
+						<td>198.176.48.191</td>
+						<td><font color="GREEN">1</font></td>
+					</tr>
+									<tr>
+						<td>美国付费55</td>
+						<td>美国EC独立服务器（视频专线100M带宽，严禁下载）</td>
+						<td>198.176.48.192</td>
+						<td><font color="GREEN">1</font></td>
+					</tr>
+									<tr>
+						<td>美国付费56</td>
+						<td>美国EC独立服务器（视频专线100M带宽，严禁下载）</td>
+						<td>198.176.48.193</td>
+						<td><font color="GREEN">1</font></td>
+					</tr>
+									<tr>
+						<td>美国付费57</td>
+						<td>美国EC独立服务器（视频专线100M带宽，严禁下载）</td>
+						<td>104.143.36.19</td>
+						<td><font color="GREEN">1</font></td>
+					</tr>
+									<tr>
+						<td>美国付费58</td>
+						<td>美国EC独立服务器（视频专线100M带宽，严禁下载）</td>
+						<td>198.176.48.195</td>
+						<td><font color="GREEN">3</font></td>
+					</tr>
+									<tr>
+						<td>美国付费59</td>
+						<td>美国EC独立服务器（视频专线100M带宽，严禁下载）</td>
+						<td>198.176.48.198</td>
+						<td><font color="GREEN">1</font></td>
+					</tr>
+									<tr>
+						<td>美国付费60</td>
+						<td>美国EC独立服务器（视频专线100M带宽，严禁下载）</td>
+						<td>104.143.36.224</td>
+						<td><font color="GREEN">3</font></td>
+					</tr>
+									<tr>
+						<td>美国付费61</td>
+						<td>美国EC独立服务器（视频专线100M带宽，严禁下载）</td>
+						<td>198.176.48.20</td>
+						<td><font color="GREEN">1</font></td>
+					</tr>
+									<tr>
+						<td>美国付费62</td>
+						<td>美国EC独立服务器（视频专线100M带宽，严禁下载）</td>
+						<td>198.176.48.200</td>
+						<td><font color="GREEN">1</font></td>
+					</tr>
+									<tr>
+						<td>美国付费63</td>
+						<td>美国EC独立服务器（视频专线100M带宽，严禁下载）</td>
+						<td>198.176.48.201</td>
+						<td><font color="GREEN">1</font></td>
+					</tr>
+									<tr>
+						<td>美国付费64</td>
+						<td>美国EC独立服务器（视频专线100M带宽，严禁下载）</td>
+						<td>104.143.36.225</td>
+						<td><font color="GREEN">0</font></td>
+					</tr>
+									<tr>
+						<td>美国付费65</td>
+						<td>美国EC独立服务器（视频专线100M带宽，严禁下载）</td>
+						<td>198.176.48.203</td>
+						<td><font color="GREEN">2</font></td>
+					</tr>
+									<tr>
+						<td>美国付费66</td>
+						<td>美国EC独立服务器（视频专线100M带宽，严禁下载）</td>
+						<td>104.143.36.185</td>
+						<td><font color="GREEN">3</font></td>
+					</tr>
+									<tr>
+						<td>香港付费1</td>
+						<td>香港新世界机房  （PPTP/L2TP，严禁下载）</td>
+						<td>123.108.111.223</td>
+						<td><font color="GREEN">0</font></td>
+					</tr>
+									<tr>
+						<td>香港付费2</td>
+						<td>香港新世界机房  （PPTP/L2TP，严禁下载）</td>
+						<td>122.10.91.142</td>
+						<td><font color="GREEN">0</font></td>
+					</tr>
+									<tr>
+						<td>台湾付费1</td>
+						<td>台湾EC机房100Mbps  （PPTP/L2TP，严禁下载）</td>
+						<td>199.101.117.133</td>
+						<td><font color="GREEN">4535</font></td>
+					</tr>
+									<tr>
+						<td>台湾付费2</td>
+						<td>台湾EC机房100Mbps  （PPTP/L2TP，严禁下载）</td>
+						<td>199.101.117.17</td>
+						<td><font color="GREEN">50</font></td>
+					</tr>
+									<tr>
+						<td>台湾付费3</td>
+						<td>台湾EC机房100Mbps  （PPTP/L2TP，严禁下载）</td>
+						<td>199.101.117.210</td>
+						<td><font color="GREEN">21</font></td>
+					</tr>
+									<tr>
+						<td>台湾付费4</td>
+						<td>台湾EC机房100Mbps  （PPTP/L2TP，严禁下载）</td>
+						<td>199.101.117.212</td>
+						<td><font color="GREEN">15</font></td>
+					</tr>
+
+
+	</table></div><DIV class=tabs></DIV>
+</DIV></DIV>
+
+<DIV id=sidebar-second class="column sidebar">
+<DIV class=section>
+<DIV class="region region-sidebar-second">
+<DIV id=block-block-3 class="block block-block">
+﻿      	<div id="right">
+			<H2><strong>最新公告</strong></H2><br/>
+			<img src="http://23.238.226.83/static/images/arrow.gif" alt="" width="11" height="13" /> <strong>客户端下载</strong><br/>
+			<p>win7、winXp、win2000 用户使用客户端可以免去配置的烦恼
+			<br/>
+            <a href="http://23.238.226.83/static/other/Client2013.rar">客户端下载</a>
+			</p>
+			<img src="http://23.238.226.83/static/images/arrow.gif" alt="" width="11" height="13" /> <strong>通知邮件</strong><br />
+			<p>
+				由于各种原因，二师兄VPN发出的通知邮件可能会被判定为垃圾邮件。为了广大用户能第一时间收到通知消息，请设置您的邮箱的垃圾邮件过滤规则。以免遗漏。
+			</p>
+			<img src="http://23.238.226.83/static/images/arrow.gif" alt="" width="11" height="13" /> <strong>常见问题</strong><br />
+			<p>
+				<a href="home!cjwt.action#1">1、连上VPN后无法访问网站</a><br/>
+				<a href="home!cjwt.action#2">2、VPN提示800错误</a><br/>
+				<a href="home!cjwt.action#3">3、无法连接PPTP/L2TP服务器</a><br/>
+				<!--a href="home!cjwt.action#4">4、客户端789异常</a-->
+			</p>
+			<img src="http://23.238.226.83/static/images/arrow.gif" alt="" width="11" height="13" /> <strong>账号激活</strong><br />
+			<p>为了减小免费线路的压力，二师兄VPN推出激活策略。免费用户需要每隔3天登录一次二师兄VPN的网站。否则会连不上免费线路哦。进入<a href="my.action"/>我的账户</a>可以查看还剩多少时间需要激活。
+			</p>
+			<!--<DIV id=block-block-3 class="block block-block" margin-left="0" margin-right="0">
+				<DIV class=content></DIV>
+			</DIV>-->
+			<img src="http://23.238.226.83/static/images/arrow.gif" alt="" width="11" height="13" /> <strong>联系客服</strong><br />
+			<p>
+				客服QQ 503463357<br/>客服QQ 2393195287<br/>技术QQ 444262906
+				<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=503463357&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:503463357:41" alt="点击这里给我发消息" title="点击这里给我发消息"></a><br/>
+				<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2393195287&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:2393195287:41" alt="点击这里给我发消息" title="点击这里给我发消息"></a><br/>
+				<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=444262906&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:444262906:41" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
+				<br/>官方Q群 256598652<br/>官方Q群 256594935<br/>
+			</p>
+		</div></DIV>
+</DIV></DIV></DIV></DIV></DIV>
+<DIV id=triptych-wrapper>
+<DIV id=triptych class=clearfix>
+<DIV class="region region-triptych-first">
+<DIV id=block-block-8 class="block block-block">
+<H2>VPN是什么</H2>
+<DIV class=content>
+<P>连接到VPN服务器，相当于构建一个虚拟专用网络，让你轻松访问facebook，twitter，youtube..带你畅游全球任意网站。比代理更稳定快速安全。使用简单，无需安装任何程序，注册成功即可使用。</P>
+</DIV></DIV></DIV>
+
+<DIV class="region region-triptych-middle">
+<DIV id=block-block-7 class="block block-block">
+<H2>二师兄VPN的优势</H2>
+<DIV class=content>
+<P>1、支持IPhone,Android,Win7,Win XP<BR>2、同时支持PPTP和L2TP/IPSec<BR>3、美国专线服务器，专业\稳定\快速<BR>4、数据加密，保护您的真实IP地址</P>
+</DIV></DIV></DIV>
+<DIV class="region region-triptych-last">
+<DIV id=block-block-10 class="block block-block">
+<H2>为什么要升级VIP</H2>
+<DIV class=content>
+<P>1、无限速无限流量<BR>2、稳定顺畅的浏览体验<BR>3、酣畅淋漓的快速访问<BR>4、多服务器，多线路支持</P>
+</DIV></DIV></DIV></DIV></DIV>
+<DIV id=footer-wrapper>
+<DIV class=section>
+<DIV id=footer class=clearfix>
+<DIV class="region region-footer">
+<DIV id=block-block-13 class="block block-block">
+<DIV class=content>
+
+<DIV class=content>
+<P>友情链接:<A href="http://www.fkwebs.com/">方块网络</A>
+</DIV>
+
+<DIV class=content>
+<P>Copyright © 2012-2012 <A href="home.action">杭州二师兄VPN工作室</A>
+版权所有<script src="http://s9.cnzz.com/stat.php?id=5390968&web_id=5390968&show=pic1" language="JavaScript"></script>
+</DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV></BODY></html>

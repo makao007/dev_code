@@ -1,4 +1,4 @@
-﻿显示发行版本
+显示发行版本
 cat /etc/issue
 
 cat /proc/version
@@ -24,6 +24,28 @@ ifconfig eth1 down
 ifconfig -a
 ifconfig eth0 hw ether xx:xx:xx:xx:xx:xx
 route add default gw 192.168.0.1
+
+#打开无线网卡电源
+iwconfig wlan0 txpower on
+ 
+#列出区域内的无线网络
+iwlist wlan0 scan
+ 
+#假设要连接到网络MyHome（即essid为MyHome的网络），那么输入命令
+iwconfig wlan0 essid "MyHome" 
+ 
+#如果网络是加密的，密码是0123456789，那么就输入命令
+iwconfig wlan0 essid "MyHome" key 0123-4567-89
+ 
+#如果正常的话，输入下面命令就可以看到连接正常的各项参数了。
+iwconfig wlan0
+ 
+#启用无线网卡的网络
+ifconfig wlan0 up
+ 
+#如果是用DHCP获取IP的，那么用dhclient或dhcpcd获取ip
+dhclient wlan0 #或 dhcpcd wlan0
+ 
 
 ----
 find /etc -name “*” | xargs grep “hello abcserver” > ./cqtest.txt
